@@ -1,0 +1,20 @@
+<section>
+  <div class="section sec04">
+    <div class="cont_box">
+      <span class="title">Partners</span>
+      <div class="cont_partners cont_inner">
+        <ul class="clinet_box">
+          {% for partner in site.partners %}
+          <li class="client01" data-aos="fade-up" data-aos-duration="800">
+            <img class="mb_none" src="/assets/images/pc/{{partner.image}}.png" alt="{{partner.name}} 로고" />
+            <img class="pc_none" src="/assets/images/mobile/{{partner.image}}_m.png" alt="{{partner.name}} 로고" />
+          </li>
+          {% endfor %}
+        </ul>
+        <div class="btn_more">
+          <a href="#">View more Clients +</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
