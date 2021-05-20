@@ -1,0 +1,41 @@
+I"*<!-- footer -->
+<footer>
+  <div class="cont_footer">
+    <div class="list_box">
+      <ul class="list_cont">
+        <li class="tel">
+          <img class="mb_none" src="/assets/images/pc/icon_tell.png" alt="전화 아이콘" />
+          <img class="pc_none" src="/assets/images/mobile/icon_tell_m.png" alt="전화 아이콘" />
+          <span>051-646-0456</span>
+        </li>
+        <li class="fax">
+          <img class="mb_none" src="/assets/images/pc/icon_fax.png" alt="팩스 아이콘" />
+          <img class="pc_none" src="/assets/images/mobile/icon_fax_m.png" alt="팩스 아이콘" />
+          <span>051-645-0453</span>
+        </li>
+        <li class="email">
+          <img class="mb_none" src="/assets/images/pc/icon_email.png" alt="이메일 아이콘" />
+          <img class="pc_none" src="/assets/images/mobile/icon_email_m.png" alt="이메일 아이콘" />
+          <span>chitosoo@gmail.com</span>
+        </li>
+        <li class="address">
+          <img class="mb_none" src="/assets/images/pc/icon_address.png" alt="주소 아이콘" />
+          <img class="pc_none" src="/assets/images/mobile/icon_address_m.png" alt="주소 아이콘" />
+          <span>한일오피스텔 1915호</span>
+        </li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <span class="dp_block">부산시 남구 자성로 152 한일오피스텔 1915호</span>
+      <span class="dp_block">
+        <span class="offset first">|</span>
+        <strong>TEL</strong>051-646-0456<span class="offset">|</span>
+        <strong>FAX</strong>051-645-0453<span class="offset first">|</span>
+      </span>
+      <strong>사업자등록번호</strong>617-81-56655<br/>  
+      <div class="page__footer-copyright">Copyright &copy; 2021 www.doulit.co.kr All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+<!-- //footer 끝 -->
+:ET
