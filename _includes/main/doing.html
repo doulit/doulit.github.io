@@ -1,0 +1,26 @@
+<section>
+  <div class="section sec03">
+    <div class="cont_box">
+      <span class="title">What we do</span>
+      <div class="cont_what cont_inner">
+        <ul class="list_do">
+          {% for doing in site.doings %}
+          <li class="data item" data-aos="fade-up" data-aos-delay="0" data-aos-duration="400">
+            <div class="card"> 
+              <div class="front"> 
+              <img class="mb_none" src="/assets/images/pc/{{doing.image}}.png" alt="{{doing.name}}" />
+              <img class="pc_none" src="/assets/images/mobile/{{doing.image}}_m.png" alt="{{doing.name}}" />
+              <span class="card_nm">{{doing.name}}</span>
+              </div> 
+              <div class="back">
+              <img src="/assets/images/pc/{{doing.image}}_on.gif" alt="{{doing.name}}" />
+              <span class="card_nm">{{doing.name}}</span>
+              </div> 
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

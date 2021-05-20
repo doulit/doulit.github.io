@@ -30,67 +30,6 @@ logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x8
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
-comments:
-  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid:
-    num_posts: # 5 (default)
-    colorscheme: # "light" (default), "dark"
-  utterances:
-    theme: # "github-light" (default), "github-dark"
-    issue_term: # "pathname" (default)
-  staticman:
-    branch: # "master"
-    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey:
-  secret:
-atom_feed:
-  path: # blank (default) uses feed.xml
-  hide: # true, false (default)
-search: # true, false (default)
-search_full_content: # true, false (default)
-search_provider: # lunr (default), algolia, google
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
-google:
-  search_engine_id: # YOUR_SEARCH_ENGINE_ID
-  instant_search: # false (default), true
-# SEO Related
-google_site_verification:
-bing_site_verification:
-yandex_site_verification:
-naver_site_verification:
-
-# Social Sharing
-twitter:
-  username:
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image: # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type: # Person or Organization (defaults to Person)
-  name: # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-# Analytics
-analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id:
-    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
@@ -271,3 +210,39 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# What we do
+doings:
+  [
+    { name: "기업 정보화 컨설팅", image: "icon_data" },
+    { name: "시스템 통합", image: "icon_system" },
+    { name: "시스템 구축 및 유지보수", image: "icon_maintain" },
+    { name: "WEB 개발", image: "icon_web" },
+    { name: "정보화 인프라 구축", image: "icon_infra" },
+    { name: "IT관련 Total Service 제공", image: "icon_total" },
+  ]
+
+# Partners
+partners:
+  [
+    { name: "부산대학교", image: "img_logo_bs" },
+    { name: "동의대학교", image: "img_logo_de" },
+    { name: "동의과학대학교", image: "img_logo_dit" },
+    { name: "광운대학교", image: "img_logo_kw" },
+    { name: "대우조선해양", image: "img_logo_dsme" },
+    { name: "동명대학교", image: "img_logo_tm" },
+    { name: "desc", image: "img_logo_dsec" },
+    { name: "동서대학교", image: "img_logo_dsu" },
+    { name: "계명대학교", image: "img_logo_km" },
+    { name: "중소조선연구원", image: "img_logo_rims" },
+    { name: "동아대학교", image: "img_logo_da" },
+    { name: "KRISO", image: "img_logo_kriso" },
+    { name: "계명문화대학교", image: "img_logo_kmm" },
+    { name: "부경대학교", image: "img_logo_bk" },
+    { name: "국립금오공과대학교", image: "img_logo_go" },
+    { name: "흥아포밍", image: "img_logo_ha" },
+    { name: "경남정보대학교", image: "img_logo_kit" },
+    { name: "고신대학교", image: "img_logo_ks" },
+    { name: "서울기독대학교", image: "img_logo_scu" },
+    { name: "TEIKURO", image: "img_logo_teikuro" },
+  ]
