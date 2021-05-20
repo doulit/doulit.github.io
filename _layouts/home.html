@@ -2,30 +2,8 @@
 layout: archive
 ---
 
-<!-- 메뉴 -->
-<div class="menu">
-  <div class="menu_inner">
-    <button class="btn_close">
-      <img src="/assets/images/pc/btn_close.png" alt="메뉴닫기 버튼">
-    </button>
-    <ul class="one_depth">
-      <li class="about">
-        <a href="#">회사소개</a>
-        <ul class="two_depth">
-          <li><a href="#">CEO 인사말</a></li>
-          <li><a href="#">연혁</a></li>
-          <li><a href="#">조직도</a></li>
-        </ul>
-      </li>
-      <li class="project"><a href="#">프로젝트</a></li>
-      <li class="client"><a href="#">고객사</a></li>
-      <li class="contact"><a href="#">문의하기</a></li>
-    </ul>
-    <button class="btn_brochure mb_none">회사소개서 다운로드</button>
-  </div>
-  <button class="btn_brochure pc_none">회사소개서 다운로드</button>
-</div>
-<!-- //메뉴 끝 -->
+{% include menu.html %}
+
 
 <div id="wrap">			
   <!-- sec01_메인비주얼 -->
