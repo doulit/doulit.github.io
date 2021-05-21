@@ -6,33 +6,33 @@
         <li class="tel">
           <img class="mb_none" src="/assets/images/pc/icon_tell.png" alt="전화 아이콘" />
           <img class="pc_none" src="/assets/images/mobile/icon_tell_m.png" alt="전화 아이콘" />
-          <span>051-646-0456</span>
+          <span>{{site.tel}}</span>
         </li>
         <li class="fax">
           <img class="mb_none" src="/assets/images/pc/icon_fax.png" alt="팩스 아이콘" />
           <img class="pc_none" src="/assets/images/mobile/icon_fax_m.png" alt="팩스 아이콘" />
-          <span>051-645-0453</span>
+          <span>{{site.fax}}</span>
         </li>
         <li class="email">
           <img class="mb_none" src="/assets/images/pc/icon_email.png" alt="이메일 아이콘" />
           <img class="pc_none" src="/assets/images/mobile/icon_email_m.png" alt="이메일 아이콘" />
-          <span>chitosoo@gmail.com</span>
+          <span>{{site.email}}</span>
         </li>
         <li class="address">
           <img class="mb_none" src="/assets/images/pc/icon_address.png" alt="주소 아이콘" />
           <img class="pc_none" src="/assets/images/mobile/icon_address_m.png" alt="주소 아이콘" />
-          <span>한일오피스텔 1915호</span>
+          <span>{{site.address}}</span>
         </li>
       </ul>
     </div>
     <div class="copyright">
-      <span class="dp_block">부산시 남구 자성로 152 한일오피스텔 1915호</span>
+      <span class="dp_block">{{site.full_address}}</span>
       <span class="dp_block">
         <span class="offset first">|</span>
-        <strong>TEL</strong>051-646-0456<span class="offset">|</span>
-        <strong>FAX</strong>051-645-0453<span class="offset first">|</span>
+        <strong>TEL</strong>{{site.tel}}<span class="offset">|</span>
+        <strong>FAX</strong>{{site.fax}}<span class="offset first">|</span>
       </span>
-      <strong>사업자등록번호</strong>617-81-56655<br/>  
+      <strong>사업자등록번호</strong>{{site.company_number}}<br/>  
       <div class="page__footer-copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} All rights reserved.</div>
     </div>
   </div>
