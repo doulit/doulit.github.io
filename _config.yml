@@ -31,6 +31,14 @@ masthead_title: # overrides the website title displayed in the masthead, use " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 
+# Site Info
+tel: "051-646-0456"
+fax: "051-645-0453"
+email: "chitosoo@gmail.com"
+address: "한일오피스텔 1915호"
+full_address: "부산시 남구 자성로 152 한일오피스텔 1915호"
+company_number: "617-81-56655"
+
 # Site Author
 author:
   name: "성기동"
