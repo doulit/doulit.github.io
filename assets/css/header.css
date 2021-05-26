@@ -1,4 +1,4 @@
-/*�޴�*/
+/*메뉴*/
 .menu{position:fixed; top:0; right:-100%; width:100%; height:100vh; z-index:200; background:#000000; opacity:0;}
 .menu .menu_inner{height:100%; width:100%; max-width:1600px; margin:0 auto; position:relative; overflow:scroll; -ms-overflow-style:none; scrollbar-width:none;}
 .menu .menu_inner::-webkit-scrollbar{display: none;}
@@ -20,17 +20,17 @@
 
 /*header*/
 header{width:100%;}
-header .header_box{width:100%; height:100px; padding-top:60px; position:fixed; top:0; left:0; z-index:99; transition:all 0.4s; /* ���ڴ� 0.1�ʴ��� */}
+header .header_box{width:100%; height:100px; padding-top:60px; position:fixed; top:0; left:0; z-index:99; transition:all 0.4s; /* 숫자는 0.1초단위 */}
 header .header_box .nav{max-width:1600px; width:100%; height:40px; margin:0 auto; *zoom:1; font-size:0; text-align:left;}
 header .header_box .nav:after{content:""; clear:both; display:block;}
 header .header_box .nav .logo{display:inline-block; vertical-align:top;}
 header .header_box .nav button{display:block; height:40px; float:right;}
-/*������ Ÿ��Ʋ*/
+/*페이지 타이틀*/
 header .header_box .nav .page_title{z-index:-1; text-align:center; position:fixed; top:60px; left:50%; margin-left:-50%; width:100%; transition:all 0.4s;}
 header .header_box .nav .page_title span{font-size:30px; font-weight:bold; line-height:30px; border-bottom:2px solid #444444;}
 
 
-/*�ڹٽ�ũ��Ʈ�� �߰��� Ŭ����*/
+/*자바스크립트로 추가될 클래스*/
 header .active {
   position: fixed;
   top:0;
@@ -40,7 +40,7 @@ header .active {
   padding:20px 0;
 }
 
-/*�ڹٽ�ũ��Ʈ�� �߰��� Ŭ����*/
+/*자바스크립트로 추가될 클래스*/
 header .active_sub {
   position: fixed;
   top:0;
@@ -50,13 +50,13 @@ header .active_sub {
   padding:20px 0;
 }
 
-/*�ڹٽ�ũ��Ʈ�� �߰��� Ŭ����*/
+/*자바스크립트로 추가될 클래스*/
 .title_on {
   margin-top:-40px;
   height:40px;
 }
 
-/*----------- ������ ------------*/
+/*----------- 반응형 ------------*/
 
 /* 1700px */
 @media all and (max-width:1700px) {
@@ -82,7 +82,7 @@ header .active_sub {
 }
 
 
-/* ��Ʈ��, PC */
+/* 노트북, PC */
 @media all and (max-width:1200px) {
 	/*menu : 1200px*/
 	.menu .menu_inner{width:90%;}
@@ -103,7 +103,7 @@ header .active_sub {
 	.menu .menu_inner .one_depth > li{font-size:48px; line-height:48px;}
 }
 
-/* �����е� Pro, ��Ʈ�� */
+/* 아이패드 Pro, 노트북 */
 @media all and (max-width:1024px) {
 	.mb_none{display:none;}
 	.pc_none{display:block;}
@@ -125,7 +125,7 @@ header .active_sub {
 	.menu .menu_inner .one_depth > li{font-size:40px; line-height:40px; margin-right:8%;}
 }
 
-/* ��Ÿ_840px */
+/* 기타_840px */
 @media all and (max-width:840px) {
 	/*menu : 840px*/
 	.menu .menu_inner{width:90%;}
@@ -137,21 +137,21 @@ header .active_sub {
 	.menu .btn_brochure{bottom:5%; right:5%;}
 }
 
-/* ������ 6(s)+, 7+, 8+ ���θ�� */
+/* 아이폰 6(s)+, 7+, 8+ 가로모드 */
 @media all and (max-width:736px) {
 	/*menu : 736px*/
 	.menu .menu_inner .btn_brochure{}
 }
 
-/* ��Ÿ_680px */
+/* 기타_680px */
 @media all and (max-width:680px) {
 	/*menu : 680px*/
 	.menu .menu_inner .one_depth > li{font-size:35px; line-height:35px;}
 	.menu .menu_inner .one_depth .about .two_depth li{font-size:20px; line-height:20px;}
-	.menu .menu_inner .btn_brochure{font-size:16px; background: url(/assets/images/pc/icon_down.png)right top no-repeat;}
+	.menu .menu_inner .btn_brochure{font-size:16px; background: url('/assets/images/pc/icon_down.png')right top no-repeat;}
 }
 
-/* ������ 5, SE ���θ�� */
+/* 아이폰 5, SE 가로모드 */
 @media all and (max-width:568px) {
 	/*menu : 568px*/
 	.menu .menu_inner .one_depth .about .two_depth{margin-top:8%;}
@@ -159,7 +159,7 @@ header .active_sub {
 	.menu .menu_inner .one_depth > li{margin-top:5%;}
 }
 
-/* ������ 6(s)+, 7+, 8+ */
+/* 아이폰 6(s)+, 7+, 8+ */
 @media all and (max-width:414px) {
 	/*header : 414px*/
 	header .header_box{padding-top:20px;}
@@ -173,7 +173,7 @@ header .active_sub {
 	.menu .btn_brochure{left:5%;}
 }
 
-/* ������ 6(s), 7, 8, X */
+/* 아이폰 6(s), 7, 8, X */
 @media all and (max-width:375px) {	
 	/*menu : 375px*/
 	.menu .menu_inner .one_depth > li{margin-top:10%;}
@@ -181,22 +181,22 @@ header .active_sub {
 	.menu .menu_inner .btn_brochure{bottom:50px;}
 }
 
-/* ������ S3, S5, S6, S7, S8, S8+, ��Ʈ 2, 3, 4, 5, 8 */
+/* 갤럭시 S3, S5, S6, S7, S8, S8+, 노트 2, 3, 4, 5, 8 */
 @media all and (max-width:360px) {
 	/*menu : 360px*/
 	.menu .menu_inner .one_depth > li{font-size:32px; line-height:32px;}
 	.menu .menu_inner .one_depth .about .two_depth li{font-size:20px; line-height:20px;}
 }
 
-/* ������ */
+/* 구형폰 */
 @media all and (max-width:320px) {
 	/*header : 320px*/
 	header .header_box .nav .logo{height:30px; margin-top:5px;}
 	/*menu : 320px*/
-	.menu .btn_brochure{font-size:16px; background:url(/assets/images/pc/icon_down.png)right 1px no-repeat;}
+	.menu .btn_brochure{font-size:16px; background:url('/assets/images/pc/icon_down.png')right 1px no-repeat;}
 }
 
-/* ������ ���� */
+/* 갤럭시 폴드 */
 @media all and (max-width:280px) {
 	/*menu : 280px*/
 	.menu .menu_inner .one_depth .about .two_depth li{display:block; margin-bottom:10%;}

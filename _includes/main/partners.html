@@ -5,9 +5,9 @@
       <div class="cont_partners cont_inner">
         <ul class="clinet_box">
           {% for partner in site.partners %}
-          <li class="client01" data-aos="fade-up" data-aos-duration="800">
+          <li class="client{{partner.id}}" data-aos="fade-up" data-aos-duration="800">
             <img class="mb_none" src="/assets/images/pc/{{partner.image}}.png" alt="{{partner.name}} 로고" />
-            <img class="pc_none" src="/assets/images/mobile/{{partner.image}}_m.png" alt="{{partner.name}} 로고" />
+            <img class="pc_none" src="/assets/images/mobile/partners/{{partner.image}}_m.png" alt="{{partner.name}} 로고" />
           </li>
           {% endfor %}
         </ul>

@@ -21,6 +21,6 @@ bundle exec jekyll serve --watch
 ## Working
 
 ```
-./images -> /assets/images
+/assets/images -> /assets/images
 ./css -> /assets/css
 ```

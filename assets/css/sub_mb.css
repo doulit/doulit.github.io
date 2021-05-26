@@ -1,0 +1,648 @@
+
+/*----------- 반응형 ------------*/
+
+/* 1700px */
+@media all and (max-width:1700px) {
+
+	#wrap .section .cont_box{width:90%;}
+	#wrap .section .cont_box .cont_inner{width:80%;}
+	/*네비 : 1700px*/
+	#wrap .location .loca_inner{width:90%;}
+	#wrap .section .cont_box .title{font-size:20px; line-height:20px;}
+	#wrap .sec01{margin-bottom:15%; margin-top:15%;}
+
+	/*----------- 회사소개 : 1700px ---------------*/
+	/*회사소개 - sec01_About Us : 1700px*/
+	.wrap_about .sec01{margin-bottom:15% !important; margin-top:5% !important;}
+	.wrap_about .sec01 .cont_box{background:url('/assets/images/pc/about/ab_hand.png') 98% top no-repeat; background-size:contain;}
+	.wrap_about .sec01 .cont_box .title{position:absolute; left:0; top:185px;}
+	.wrap_about .sec01 .cont_box .cont_about h1{font-size:50px; line-height:50px;}
+	.wrap_about .sec01 .cont_box .cont_about p{font-size:24px; line-height:40px; width:75%;}
+	/*회사소개 - sec02_Core Values : 1700px*/
+	.wrap_about .sec02{margin-bottom:15%;}
+	.wrap_about .sec02 .cont_box .title{position:absolute; left:0; top:13%;}
+	.wrap_about .sec02 .cont_box .cont_value{width:100%;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list{width:100%; font-size:0; text-align:left;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li{width:37%; position:relative; display:inline-block; vertical-align:top;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box{position:relative; width:100%; height:auto; z-index:1;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li.li_enth{margin-left:-5.5%; z-index:4;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li.li_wise{margin-left:-5.5%; z-index:5;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .source{position:relative; z-index:-1;}
+	.wrap_about .sec02 .cont_box .cont_value .result{padding-top:15%; font-size:36px; line-height:56px;}
+	/*회사소개 - sec03_Main Product : 1700px*/
+	.wrap_about .sec03{padding:15% 0;}
+	.wrap_about .sec03 .cont_box .title{top:118px;}
+
+	/*----------- CEO 인사말 : 1700px ---------------*/
+	.wrap_greeting .sec01 .cont_box .title{top:140px;}
+
+	/*----------- 프로젝트 : 1700px ---------------*/
+	.wrap_project .sec01 .cont_box .title{position:absolute; left:0; top:70px;}
+
+	/*----------- 고객사 : 1700px ---------------*/
+	.wrap_partners .sec01 .cont_box .title{top:83px;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li{width:calc(70% / 4); margin-right:10%;}
+}
+
+/* 기타_1624px */
+@media all and (max-width:1624px) {
+
+	/*----------- 연혁 : 1624px ---------------*/
+	/*왼쪽 텍스트 : 1624px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{font-size:22px; line-height:22px;}
+	/*오른쪽 텍스트 : 1624px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{font-size:22px; line-height:22px;}
+}
+
+/* 기타_1620px */
+@media all and (max-width:1620px) {
+
+	/*----------- 회사소개 : 1620px ---------------*/
+	/*회사소개 - sec02_Core Values : 1620px*/
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box h1{font-size:50px;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box span{font-size:36px; line-height:36px;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box{padding-bottom:32%;}
+	
+	/*----------- 연혁 : 1620px ---------------*/
+	/*왼쪽 텍스트 : 1620px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list{padding-top:8%;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{margin-bottom:6%; font-size:20px; line-height:20px;}
+	/*오른쪽 텍스트 : 1620px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:8%;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:6%; font-size:20px; line-height:20px;}
+
+	
+}
+
+/* 기타_1500px */
+@media all and (max-width:1500px) {
+
+	/*----------- 회사소개 : 1500px ---------------*/
+	/*회사소개 - sec02_Core Values : 1500px*/
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box h1{font-size:50px; padding-top:130px;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box span{font-size:36px; line-height:36px;}
+	/*회사소개 - sec03_Main Product : 1500px*/
+	.wrap_about .sec03 .cont_box .cont_product .product_list li{margin-bottom:9%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title{margin-bottom:20px; height:45px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title img{height:100%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:34px; line-height:45px; margin-left:30px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li p{font-size:18px;}
+	
+	/*----------- 연혁 : 1500px ---------------*/
+	/*왼쪽 텍스트 : 1500px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list{padding-top:8%;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{margin-bottom:6%; font-size:18px; line-height:18px;}
+	/*오른쪽 텍스트 : 1500px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:8%;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:6%; font-size:18px; line-height:18px;}
+
+	/*----------- 프로젝트 : 1500px ---------------*/
+	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:50px; line-height:50px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:20px; line-height:30px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{line-height:30px;}
+}
+
+/* 기타_1400px */
+@media all and (max-width:1400px) {
+
+	/*----------- 회사소개 : 1400px ---------------*/
+	/*회사소개 - sec02_Core Values : 1400px*/
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box h1{font-size:42px; padding-top:130px;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box span{font-size:32px; line-height:32px;}
+	/*회사소개 - sec03_Main Product : 1400px*/
+	.wrap_about .sec03 .cont_box .cont_product .product_list li{margin-bottom:8%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title{margin-bottom:18px; height:40px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:32px; line-height:40px; margin-left:28px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li p{font-size:16px; line-height:30px;}
+	
+	/*----------- 연혁 : 1400px ---------------*/
+	/*왼쪽 텍스트 : 1400px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{margin-bottom:5%;}
+	/*오른쪽 텍스트 : 1400px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:5%;}
+}
+
+/* 기타_1360px */
+@media all and (max-width:1360px) {
+
+	/*----------- 회사소개 : 1360px ---------------*/
+	/*회사소개 - sec02_Core Values : 1360px*/
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box h1{font-size:40px; padding-top:120px;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box span{font-size:30px; line-height:30px;}
+	
+	/*-------------- 연혁 : 1360px ---------------*/
+	/*왼쪽 텍스트 : 1360px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .ht_title h1{font-size:45px; line-height:45px;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list{padding-top:7%;}
+	/*오른쪽 텍스트 : 1360px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title h1{font-size:45px; line-height:45px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:7%;}
+}
+
+/* 기타_1300px */
+@media all and (max-width:1300px) {
+
+	/*----------- 회사소개 : 1300px ---------------*/
+	/*회사소개 - sec02_Core Values : 1300px*/
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box{padding-bottom:30%;}
+	/*회사소개 - sec03_Main Product : 1300px*/
+	.wrap_about .sec03 .cont_box .cont_product .product_list li{margin-bottom:8%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title{margin-bottom:15px; height:36px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:30px; line-height:36px; margin-left:25px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li p{font-size:14px; line-height:26px;}
+	
+	/*-------------- 연혁 : 1300px ---------------*/
+	/*왼쪽 텍스트 : 1300px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{font-size:16px; line-height:16px;}
+	/*오른쪽 텍스트 : 1300px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{font-size:16px; line-height:16px;}
+
+	/*----------- 프로젝트 : 1300px ---------------*/
+	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:40px; line-height:40px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:18px; line-height:28px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{line-height:28px;}
+}
+
+/* 기타_1260px */
+@media all and (max-width:1260px) {
+
+	/*----------- 회사소개 : 1260px ---------------*/
+	/*회사소개 - sec02_Core Values : 1260px*/
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box h1{font-size:36px; padding-top:110px;}
+	
+	/*-------------- 연혁 : 1260px ---------------*/
+	/*왼쪽 텍스트 : 1260px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list{padding-top:6%;}
+	/*오른쪽 텍스트 : 1260px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:6%;}
+}
+
+/* 노트북, PC */
+@media all and (max-width:1200px) {
+
+	#wrap .sub_top{margin-top:120px;}
+	#wrap .sub_top .top_inner{width:80%; padding:8% 0;}
+	/*----------- 회사소개 : 1200px ---------------*/
+	.wrap_about .top_banner .top_inner{padding:8% 0; width:60%;}
+	.wrap_about .top_banner .top_inner .top_text{font-size:50px; line-height:50px;}
+	.wrap_about .top_banner .top_inner .purpose{margin-top:40px;}
+	.wrap_about .top_banner .top_inner .purpose span{font-size:120px; line-height:120px; padding:0 40px;}
+	.wrap_about .top_banner .top_inner .purpose .qt_start{width:20px;}
+	.wrap_about .top_banner .top_inner .purpose .qt_end{width:20px;}
+	/*회사소개 - sec02_Core Values : 1200px*/
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box h1{font-size:34px;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box span{font-size:24px; line-height:24px;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .source{font-size:24px; line-height:24px; padding-top:140px;}
+	.wrap_about .sec02 .cont_box .cont_value .result{font-size:32px; line-height:52px;}
+	/*회사소개 - sec03_Main Product : 1200px*/
+	.wrap_about .sec03 .cont_box .cont_product .product_list li{margin-bottom:8%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title{margin-bottom:15px; height:36px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:28px; line-height:36px; margin-left:25px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li p{font-size:14px; line-height:26px;}
+	
+	/*----------- CEO 인사말 : 1200px ---------------*/
+	.wrap_greeting .sec01 .bg_pen{width:40%; top:50%;}
+	
+	/*----------- 연혁 : 1200px ---------------*/
+	.wrap_history .sec01 .cont_box .title{top:88px;}
+	/*왼쪽 텍스트 : 1200px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .ht_title h1{font-size:40px; line-height:40px;}
+	/*오른쪽 텍스트 : 1200px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title h1{font-size:40px; line-height:40px;}
+}
+
+
+/* 기타_1118px */
+@media all and (max-width:1118px) {
+	
+	/*----------- 회사소개 : 1118px ---------------*/
+	.wrap_about .sec01 .cont_box .cont_about p{font-size:20px; line-height:30px; margin-top:5%;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box h1{padding-top:95px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:24px;}
+	
+	/*----------- 연혁 : 1118px ---------------*/
+	/*왼쪽 텍스트 : 1118px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .ht_title h1{font-size:35px; line-height:35px;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{margin-bottom:4%; font-size:14px; line-height:14px;}
+	/*오른쪽 텍스트 : 1118px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title h1{font-size:35px; line-height:35px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:4%; font-size:14px; line-height:14px;}
+	
+	/*----------- 프로젝트 : 1500px ---------------*/
+	.wrap_project .sec01 .cont_box .cont_project .cont_year{margin-bottom:8%;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{margin-bottom:40px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:16px; line-height:26px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{line-height:26px;}
+}
+
+/* 아이패드 Pro, 노트북 */
+@media all and (max-width:1024px) {
+	
+	#wrap .section .cont_box .title{font-size:18px; line-height:18px;}
+	#wrap .sub_top .top_inner .cont_text{font-size:45px; line-height:65px;}
+	/*----------- 회사소개 : 1024px ---------------*/
+	/*회사소개 - sec01_About Us : 1024px*/
+	.wrap_about .sec01 .cont_box .title{top:174px;}
+	.wrap_about .sec01 .cont_box .cont_about h1{font-size:40px; line-height:40px;}
+	/*회사소개 - sec02_Core Values : 1024px*/
+	.wrap_about .sec02 .cont_box .title{top:14%;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .text_box h1{padding-top:80px;}
+	.wrap_about .sec02 .cont_box .cont_value .value_list li .source{font-size:20px; padding-top:135px;}
+	.wrap_about .sec02 .cont_box .cont_value .result{font-size:30px; line-height:48px;}
+	.wrap_about .sec02 .cont_box .cont_value .pc_none{display:none !important;}
+	.wrap_about .sec02 .cont_box .cont_value .mb_none{display:block !important;}
+	/*회사소개 - sec03_Main Product : 1024px*/
+	.wrap_about .sec03 .cont_box .title{top:107px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li{margin-bottom:8%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:24px; line-height:36px; margin-left:25px;}
+
+	/*----------- CEO 인사말 : 1024px ---------------*/
+	.wrap_greeting .sec01 .cont_box .title{top:125px;}
+	.wrap_greeting .sec01 .bg_pen{top:60%;}
+	.wrap_greeting .sec01 .bg_pen img.pc_none{display:none !important;}
+	.wrap_greeting .sec01 .bg_pen img.mb_none{display:block !important;}
+	.wrap_greeting .sec01 .cont_box .cont_greeting .sign_box{margin-top:10%;}
+	
+	/*----------- 연혁 : 1024px ---------------*/
+	.wrap_history .sec01 .cont_box .title{top:82px;}
+	/*왼쪽 텍스트 : 1024px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{margin-bottom:4%; font-size:13px; line-height:13px;}
+	/*오른쪽 텍스트 : 1024px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:4%; font-size:13px; line-height:13px;}
+	
+	/*----------- 프로젝트 : 1024px ---------------*/
+	.wrap_project .sec01 .cont_box .title{top:60px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:14px; line-height:24px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{line-height:24px;}
+	
+	/*----------- 고객사 : 1024px ---------------*/
+	.wrap_partners .sec01 .cont_box .title{top:75px;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li{margin-bottom:8%;}
+}
+
+/* 기타_950px */
+@media all and (max-width:950px) {
+
+	#warp .sec01{margin-top:15%; margin-bottom:15%;}	
+	/*----------- 회사소개 : 950px ---------------*/
+	#wrap .location .loca_inner li{font-size:20px; line-height:60px;}
+	#wrap .location .loca_inner li.first{padding-right:4%;}
+	#wrap .location .loca_inner li.tw_depth{padding-left:4%;}
+	/*회사소개 - sec01_About Us : 950px*/
+	.wrap_about .sec01 .cont_box .title{top:65%;}
+	.wrap_about .sec01 .cont_box{background:none; padding-top:10%;}
+	.wrap_about .sec01 .cont_box .cont_about p{width:100%;}
+	.wrap_about .sec01 .cont_box .cont_about p br{display:none;}
+	/*회사소개 - sec02_Core Values : 950px*/
+	.wrap_about .sec02 .cont_box .title{top:9%;}
+	.wrap_about .sec02 .cont_box .cont_value .pc_none{display:block !important;}
+	.wrap_about .sec02 .cont_box .cont_value .mb_none{display:none !important;}
+	.wrap_about .sec02 .cont_box .cont_value .diagram{width:100%;}
+	.wrap_about .sec02 .cont_box .cont_value .diagram img{width:100%;}
+	.wrap_about .sec02 .cont_box .cont_value .result{background:url('/assets/images/mobile/about/ab_line_mb.png') center top no-repeat; background-size:contain;}
+	/*회사소개 - sec03_Main Product : 950px*/
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:20px; line-height:36px; margin-left:25px;}
+	
+	/*----------- CEO 인사말 : 950px ---------------*/
+	.wrap_greeting .sec01 .bg_pen{width:30%; top:65%;}
+	.wrap_greeting .sec01 .bg_pen img.pc_none{display:block !important;}
+	.wrap_greeting .sec01 .bg_pen img.mb_none{display:none !important;}
+
+	/*----------- 연혁 : 950px ---------------*/
+	/*왼쪽 텍스트 : 950px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list{margin-top:5%;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{margin-bottom:3%; line-height:20px;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li .under{margin-top:0;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .img_box{padding-left:30px; width:calc(50% - 33px);}
+	/*오른쪽 텍스트 : 950px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{margin-top:5%;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:3%; line-height:20px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li .under{margin-top:0;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li .text .under02{margin-top:0;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .img_box{padding-right:30px; width:calc(50% - 33px);}
+	/*설립년도 : 950px*/
+	.wrap_history .sec01 .cont_box .cont_history .last{padding-bottom:15% !important;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start{height:300px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start .year{padding-top:100px; padding-bottom:10px; font-size:50px; line-height:50px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start .company{font-size:24px; line-height:34px;}
+
+	/*----------- 고객사 : 950px ---------------*/
+	.wrap_partners .sec01 .cont_box .title{top:77px;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li{width:calc(80% / 3); margin-right:10%;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(3n){margin-right:0;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(4n){margin-right:10%;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(12n){margin-right:0;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(n + 29){margin-bottom:8%;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(n + 31){margin-bottom:0;}
+}
+
+/* 기타_905px */
+@media all and (max-width:905px) {
+
+	/*----------- 회사소개 : 905px ---------------*/
+	/*회사소개 - sec02_Core Values : 905px*/
+	.wrap_about .sec02 .cont_box .title {top:10%;}
+	/*회사소개 - sec03_Main Product : 905px*/
+	.wrap_about .sec03 .cont_box .cont_product .product_list li{width:100%; margin-bottom:10%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li:nth-child(n+5){margin-bottom:10%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li:last-child{margin-bottom:0;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title{height:30px; width:100%; margin-right:0;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:24px; line-height:30px; margin-left:25px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li:nth-child(2n) .li_title{margin-left:0;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li:nth-child(2n) p{margin-left:0;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li p{width:100%; margin-right:0; font-size:18px;}
+
+	/*----------- 프로젝트 : 905px ---------------*/
+	.wrap_project .sec01 .cont_box .title{top:60px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list{width:100%;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{width:87%; font-size:24px; line-height:34px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text br{display:none;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{width:5%; font-size:30px; line-height:34px; padding-left:3%; margin-right:5%;}	
+}
+
+/* 기타_840px */
+@media all and (max-width:840px) {
+
+	/*----------- 회사소개 : 840px ---------------*/
+	.wrap_about .top_banner .top_inner .top_text{font-size:36px; line-height:36px;}
+	.wrap_about .top_banner .top_inner .purpose{margin-top:6%;}
+	.wrap_about .top_banner .top_inner .purpose span{font-size:100px; line-height:100px; padding:0 20px;}
+	/*회사소개 - sec03_Main Product : 840px*/
+	.wrap_about .sec03 .cont_box .cont_product .product_list li{margin-bottom:8%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li:nth-child(n+5){margin-bottom:8%;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title{margin-bottom:15px; height:36px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:28px; line-height:36px; margin-left:25px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li p{font-size:16px; line-height:26px;}
+
+}
+
+/* 아이폰 X 가로 */
+@media all and (max-width:812px) {
+
+	/*----------- 회사소개 : 812px ---------------*/
+	.wrap_about .sec02 .cont_box .title{top:11%;}
+
+
+}
+
+/* 아이패드 */
+@media all and (max-width:768px) {
+	
+	header .header_box .nav .page_title{display:none;}
+	#wrap .top_banner{margin-top:170px;}
+	#wrap .sub_top{margin-top:170px;}
+	#wrap .sub_top .top_inner .cont_text{font-size:40px; line-height:60px;}
+	#wrap .page_title_mb{position:absolute; display:block; padding:15px 0; top:-69px; width:100%; background:#eeeeee; text-align:center;}
+	#wrap .page_title_mb span{font-size:30px; font-weight:bold;}
+
+	/*----------- 회사소개 : 768px ---------------*/
+	.wrap_about .sec02 .cont_box .cont_value .result{font-size:24px; line-height:40px;}
+
+	/*----------- CEO 인사말 : 840px ---------------*/
+	.wrap_greeting .sec01 .bg_pen{top:75%;}
+
+}
+
+/* 아이폰 6(s)+, 7+, 8+ 가로모드 */
+@media all and (max-width:736px) {
+
+	/*----------- 연혁 : 812px ---------------*/
+	.wrap_history .top_banner_ht .top_inner .cont_text{font-size:40px; line-height:60px;}
+
+}
+
+/* 기타_712px */
+@media all and (max-width:712px) {
+
+	/*----------- 회사소개 : 712px ---------------*/
+	.wrap_about .sec01 .cont_box .title{top:56%;}
+}
+
+/* 기타_680px */
+@media all and (max-width:680px) {
+
+}
+
+/* 아이폰 6(s), 7, 8 가로모드 */
+@media all and (max-width:667px) {
+
+	#wrap .sub_top .top_inner .cont_text{font-size:35px; line-height:55px;}
+
+}
+
+/* 갤럭시 S3, S5, S6, S7, S8, S8+, 노트 2, 3, 4, 5, 8 가로모드 */
+@media all and (max-width:640px) {
+	
+	#wrap .page_title_mb{padding:20px 0; top:-66px;}
+	#wrap .page_title_mb span{font-size:20px;}
+	#wrap .sub_top .top_inner .cont_text{font-size:30px; line-height:45px;}
+	/*----------- 회사소개 : 640px ---------------*/
+	.wrap_about .top_banner .top_inner{padding:10% 0;}
+	.wrap_about .top_banner .top_inner .top_text{font-size:30px; line-height:30px;}
+	.wrap_about .top_banner .top_inner .purpose .qt_start{width:15px;}
+	.wrap_about .top_banner .top_inner .purpose .qt_end{width:15px;}
+	.wrap_about .top_banner .top_inner .purpose span{font-size:80px; line-height:80px;}
+
+	/*----------- CEO 인사말 : 640px ---------------*/
+	.wrap_greeting .sec01 .bg_pen{top:80%;}
+
+	/*----------- 프로젝트 : 640px ---------------*/
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li{margin-bottom:3%;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{margin-bottom:5%;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{font-size:20px; line-height:30px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:20px; line-height:30px;}
+	
+}
+
+/* 아이폰 5, SE 가로모드 */
+@media all and (max-width:568px) {
+	
+	#wrap .sub_top .top_inner{padding:12% 0;}
+	#wrap .sub_top .top_inner .cont_text{font-size:25px; line-height:35px;}
+	#wrap .section .cont_box .cont_inner{padding-top:15%; width:100%;}
+	#wrap .section .cont_box .title {transform:rotate(0deg); top:0; left:0;}
+
+	/*----------- 회사소개 : 568px ---------------*/
+	/*회사소개 - sec01_About Us : 568px*/
+	.wrap_about .sec01{margin-top:15% !important;}
+	.wrap_about .sec01 .cont_box{padding-top:0;}
+	.wrap_about .sec01 .cont_box .cont_about h1{font-size:30px; line-height:30px;}
+	/*회사소개 - sec02_Core Values : 568px*/
+	.wrap_about .sec02 .cont_box .cont_value .result{font-size:20px; line-height:34px; margin-top:8%;}
+	/*회사소개 - sec03_Main Product : 568px*/
+	.wrap_about .sec03 .cont_box .cont_product .product_list li{margin-bottom:12%;}
+
+	/*----------- CEO 인사말 : 568px ---------------*/
+	.wrap_greeting .sec01{margin-bottom:50% !important;}
+	.wrap_greeting .sec01 .bg_pen{width:50%; top:80%;}
+	.wrap_greeting .sec01 .cont_box .cont_greeting .sign_box{margin-top:15%;}
+	.wrap_greeting .sec01 .cont_box .cont_greeting .sign_box img{width:80%;}
+	
+	/*----------- 연혁 : 568px ---------------*/
+	.wrap_history .pc_none{display:block !important;}
+	.wrap_history .mb_none{display:none !important;}
+	.wrap_history .sec01 .cont_box .cont_history{padding-top:10% !important;}
+	.wrap_history .sec01 .cont_box .cont_history .now_box{font-size:45px; line-height:45px;}
+	.wrap_history .sec01 .cont_box .cont_history .first{padding-top:0;}
+	/*왼쪽 텍스트 : 568px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box{background:url('/assets/images/mobile/history/ht_border_mb.png') left top repeat-y;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box{width:100%; text-align:left; margin-left:0;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .ht_title{border-right:0px; border-left:6px solid #0078ff; padding-left:5%; padding-right:0;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .ht_title h1{background: url('/assets/images/mobile/history/icon_arrow_mb.png') left center no-repeat; padding-left:40px; padding-right:0; text-align:left;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list{padding-top:0;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{padding-left:70px; font-size:20px; line-height:30px; margin-bottom:2%;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li .dot{left:-7px;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li .under{margin-top:0;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .img_box{width:calc(100% - 70px); margin-top:7%; padding-left:70px;}
+	/*오른쪽 텍스트 : 568px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box{background:url('/assets/images/mobile/history/ht_border_mb.png') left top repeat-y;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box{width:100%; text-align:left; margin-left:0;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title{border-right:0px; border-left:6px solid #0078ff; padding-left:5%;  padding-right:0;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title h1{background: url('/assets/images/mobile/history/icon_arrow_mb.png') left center no-repeat; padding-left:40px; padding-right:0;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:0;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{padding-left:70px; font-size:20px; line-height:30px; margin-bottom:2%;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li .dot{left:-7px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li .under{margin-top:0;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .img_box{width:calc(100% - 70px); margin-top:7%; padding-left:70px; padding-right:0;}
+	/*설립년도 : 568px*/
+	.wrap_history .sec01 .cont_box .cont_history .start_box{width:100%; position:relative;}	
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start{background:url('/assets/images/mobile/history/ht_start_mb.png') center center no-repeat; background-size:contain;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border{z-index:-1; width:18%; height:147px; border-left:6px solid #eeeeee; border-bottom:6px solid #eeeeee; position:absolute; top:0; left:0;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border .dot{position:absolute; left:-13px; bottom:-13px;}
+
+	/*----------- 고객사 : 568px ---------------*/
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box{width:90%; margin:0 auto;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li{width:calc(85% / 2); margin-right:15%;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(2n){margin-right:0;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(3n){margin-right:15%;}
+	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(6n){margin-right:0;}
+	
+}
+
+/* 기타_490px */
+@media all and (max-width:490px) {
+	
+	#wrap .location .loca_inner li{font-size:16px;}
+	/*----------- 회사소개 : 490px ---------------*/
+	.wrap_about .top_banner .top_inner .top_text{font-size:24px; line-height:24px;}
+	.wrap_about .top_banner .top_inner .purpose .qt_start{width:10px;}
+	.wrap_about .top_banner .top_inner .purpose .qt_end{width:10px;}
+	.wrap_about .top_banner .top_inner .purpose span{font-size:60px; line-height:60px; padding:0px 10px;}
+	.wrap_about .sec01 .cont_box .cont_about p{font-size:18px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:21px;}
+
+	/*----------- CEO 인사말 : 490px ---------------*/
+	.wrap_greeting .sec01 .bg_pen{top:80%;}
+	.wrap_greeting .sec01 .cont_box .cont_greeting p{font-size:16px; line-height:26px;}
+	
+	/*----------- 연혁 : 490px ---------------*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{font-size:16px; line-height:26px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{font-size:16px; line-height:26px;}
+
+	/*----------- 프로젝트 : 490px ---------------*/
+	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:36px; line-height:36px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{font-size:18px; line-height:28px; margin-right:3%;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:18px; line-height:28px;}
+
+}
+
+/* 아이폰 6(s)+, 7+, 8+ */
+@media all and (max-width:414px) {
+
+	#wrap .top_banner{margin-top:135px;}
+	#wrap .sub_top{margin-top:135px;}
+	#wrap .sub_top .top_inner .cont_text{font-size:20px; line-height:30px;}
+	#wrap .page_title_mb{padding:15px 0; top:-56px;}
+
+	/*----------- 회사소개 : 414px ---------------*/
+	.wrap_about .top_banner{margin-top:145px;}
+	.wrap_about .sec02 .cont_box .cont_value .diagram .ta_img{display:none;}
+	.wrap_about .sec02 .cont_box .cont_value .diagram .mb_img{display:block;}
+
+	/*----------- CEO 인사말 : 414px ---------------*/
+	.wrap_greeting .sec01 .cont_box .cont_greeting .sign_box{text-align:right;}
+	.wrap_greeting .sec01 .cont_box .cont_greeting .sign_box span{left:15px;}
+	.wrap_greeting .sec01 .cont_box .cont_greeting .sign_box img{width:60%;}
+
+	/*----------- 연혁 : 414px ---------------*/
+	.wrap_history .sec01 .cont_box .cont_history .now_box{font-size:40px; line-height:40px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start{height:250px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border{height:123px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start .year{padding-top:75px; font-size:40px; line-height:40px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start .company{font-size:20px; line-height:30px;}
+
+}
+
+/* 아이폰 6(s), 7, 8, X */
+@media all and (max-width:375px) {
+
+	/*----------- 프로젝트 : 375px ---------------*/
+	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:34px; line-height:34px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{font-size:16px; line-height:26px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:16px; line-height:26px;}
+
+}
+
+/* 갤럭시 S3, S5, S6, S7, S8, S8+, 노트 2, 3, 4, 5, 8 */
+@media all and (max-width:360px) {
+
+	#wrap .sub_top .top_inner .cont_text{font-size:20px; line-height:35px;}
+	/*----------- 회사소개 : 360px ---------------*/
+	.wrap_about .sec01 .cont_box .cont_about h1{font-size:26px; line-height:26px;}
+	.wrap_about .sec01 .cont_box .cont_about p{font-size:16px; line-height:26px;}
+	.wrap_about .top_banner .top_inner .top_text{font-size:20px; line-height:20px;}
+	
+	/*----------- CEO 인사말 : 360px ---------------*/
+	.wrap_greeting .sec01 .bg_pen{top:90%;}
+
+	/*----------- 연혁 : 360px ---------------*/
+	/*왼쪽 텍스트 : 360px*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .ht_title h1{padding-left:30px; font-size:30px; line-height:30px;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{padding-left:50px; font-size:14px; line-height:20px;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li .dot img{width:5%;}
+	.wrap_history .sec01 .cont_box .cont_history .left_box .img_box{width:calc(100% - 50px); padding-left:50px;}
+	/*오른쪽 텍스트 : 360px*/
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title h1{padding-left:30px; font-size:30px; line-height:30px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{padding-left:50px; font-size:14px; line-height:20px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li .dot img{width:5%;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .img_box{width:calc(100% - 50px); padding-left:50px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border .dot{left:-11px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border .dot img{width:70%;}
+}
+
+/* 구형폰 */
+@media all and (max-width:320px) {
+
+	
+	#wrap .section .cont_box .title{font-size:14px; line-height:14px;}
+
+	/*----------- 회사소개 : 320px ---------------*/
+	.wrap_about .top_banner .top_inner .top_text{font-size:18px; line-height:18px;}
+	.wrap_about .sec01 .cont_box .cont_about p{font-size:14px; line-height:24px;}
+	.wrap_about .sec02 .cont_box .cont_value .result{font-size:16px; line-height:26px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:18px; margin-left:20px;}
+	.wrap_about .sec03 .cont_box .cont_product .product_list li p{font-size:14px; line-height:24px;}
+
+	/*----------- 연혁 : 320px ---------------*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li .dot{left:-5px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li .dot{left:-5px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start{height:200px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border{height:100px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start .year{padding-top:62px; padding-bottom:10px; font-size:30px; line-height:30px;}
+	.wrap_history .sec01 .cont_box .cont_history .start_box .start .company{font-size:16px; line-height:24px;}
+
+	/*----------- 프로젝트 : 320px ---------------*/
+	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:32px; line-height:32px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{font-size:14px; line-height:20px; margin-right:4%;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:14px; line-height:20px;}
+}
+
+/* 갤럭시 폴드 */
+@media all and (max-width:280px) {
+	
+	#wrap .location .loca_inner li{font-size:15px;}
+	#wrap .sub_top .top_inner .cont_text{font-size:18px; line-height:30px;}
+	/*----------- 연혁 : 280px ---------------*/
+	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li .dot{left:-4px;}
+	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li .dot{left:-4px;}
+}

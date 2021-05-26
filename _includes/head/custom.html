@@ -1,12 +1,38 @@
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+
+{% if page.url != "/"  %}
+<!-- 로고 -->
+<header>
+  <div class="header_box_sub">
+    <div class="nav">
+      <div class="logo">
+        <a href="/"><img src="/assets/images/pc/logo_sub_pc.png" alt="도울정보기술 로고" /></a>
+      </div>
+      <!-- 페이지 제목 : 회사소개 -->
+      <div class="page_title">
+        <span>회사소개</span>
+      </div>
+      <!-- //페이지 제목 : 회사소개 끝 -->
+      <button class="btn_open">
+        <img class="mb_none" src="/assets/images/pc/toggle_sub.png" alt="메뉴열기 버튼">
+        <img class="pc_none" src="/assets/images/mobile/toggle_sub_mb.png" alt="메뉴열기 버튼">
+      </button>
+    </div>
+  </div>
+</header>
+<!-- //로고 끝 -->
+
+{% else %}
+
 <!-- 로고 -->
 <header>
   <div class="header_box">
     <div class="nav">
       <div class="logo">
-        <a href="#"><img src="/assets/images/pc/logo_pc.png" alt="{{site.title}} 로고" /></a>
+        <a href="/"><img src="/assets/images/pc/logo_pc.png" alt="{{site.title}} 로고" /></a>
       </div>
       <button class="btn_open">
         <img class="mb_none" src="/assets/images/pc/toggle.png" alt="메뉴열기 버튼">
@@ -17,4 +43,5 @@
 </header>
 <!-- //로고 끝 -->
 
+{% endif %}
 <!-- end custom head snippets -->
