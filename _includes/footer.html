@@ -33,8 +33,11 @@
         <strong>FAX</strong>{{site.fax}}<span class="offset first">|</span>
       </span>
       <strong>사업자등록번호</strong>{{site.company_number}}<br/>  
-      <div class="page__footer-copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} All rights reserved.</div>
+      <div class="page__footer-copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} All rights reserved.<br/>
+        <span class="git_link"><a href="https://github.com/doulit" target="blank">Copyright © {{site.copyright}}</a></span>
+      </div>      
     </div>
   </div>
 </footer>
 <!-- //footer 끝 -->
+
