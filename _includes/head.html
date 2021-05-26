@@ -10,6 +10,15 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+
+<meta data-n-head="ssr" data-hid="og-image" property="og:image" content="{{ '/assets/meta.png' | relative_url }}">
+<meta data-n-head="ssr" data-hid="og-image-height" property="og:image:height" content="400">
+<meta name="Keywords" content="{{site.keywords}}">
+<meta name="Description" content="{{site.description}}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="format-detection" content="telephone=no" />
+<title>{{site.title}}</title>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
