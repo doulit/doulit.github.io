@@ -10,16 +10,25 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/reset.css' | relative_url }}">
+{% if page.url != "/"  %}
+<link rel="stylesheet" href="{{ '/assets/css/sub.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/sub_mb.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/header_sub.css' | relative_url }}">
+{% else %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}">
+{% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/aos.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
 <!-- js -->
-<script src="/assets/js/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="/assets/js/aos.js"></script>
 
 <!--[if IE]>
@@ -43,40 +52,77 @@
   {% endfor %}
 {% endif %}
 
-<script>
-  $(document).ready(function() {
-    //header 고정
-    $(window).scroll(function() {
-        var header_top = $(".header_box").offset().top;
-        if (header_top > 350) { //숫자는 최상단에서부터 원하는 위치값 넣기
-        $(".header_box").addClass("active");
-        $(".btn_close").addClass("btn_on");
-        }else {
-        $(".header_box").removeClass("active");
-        $(".btn_close").removeClass("btn_on");
-        }
-    });
-    
-    //fade-up 효과
-    AOS.init({
-    easing: 'ease-in-out-sine',
-    duration: 1000
-    });
 
-    //mouseover 효과
-    $(".item").mouseenter(function(){
-        $(this).addClass("on");
+{% if page.url != "/"  %}
+		<script>
+			$(document).ready(function() {
+				//header 고정
+				$(window).scroll(function() {
+				   var header_top = $(".header_box_sub").offset().top;
+				   if (header_top > 50) { //숫자는 최상단에서부터 원하는 위치값 넣기
+					  $(".header_box_sub").addClass("active_sub");
+					  $(".btn_close").addClass("btn_on");
+					  $(".page_title").addClass("title_on");
+				   }else {
+					  $(".header_box_sub").removeClass("active_sub");
+					  $(".btn_close").removeClass("btn_on");
+					  $(".page_title").removeClass("title_on");
+				   }
+				});
+				
+				//fade-up 효과
+				AOS.init({
+				easing: 'ease-in-out-sine',
+				duration: 1000
+				});
+
+				//menu 효과
+				$(".header_box_sub button").click(function(){
+				   $(".menu").addClass("on");
+				   });
+				$(".menu button").click(function(){
+				   $(".menu").removeClass("on");
+				   });
+			});
+		</script>
+{% else %}
+    <script>
+      $(document).ready(function() {
+        //header 고정
+        $(window).scroll(function() {
+            var header_top = $(".header_box").offset().top;
+            if (header_top > 350) { //숫자는 최상단에서부터 원하는 위치값 넣기
+              $(".header_box").addClass("active");
+              $(".btn_close").addClass("btn_on");
+            }else {
+              $(".header_box").removeClass("active");
+              $(".btn_close").removeClass("btn_on");
+            }
         });
-    $(".item").mouseleave(function(){
-        $(this).removeClass("on");
+        
+        //fade-up 효과
+        AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 1000
         });
 
-    //menu 효과
-    $(".header_box button").click(function(){
-        $(".menu").addClass("on");
-        });
-    $(".menu button").click(function(){
-        $(".menu").removeClass("on");
-        });
-  });
-</script>
+        //mouseover 효과
+        $(".item").mouseenter(function(){
+            $(this).addClass("on");
+            });
+        $(".item").mouseleave(function(){
+            $(this).removeClass("on");
+            });
+
+        //menu 효과
+        $(".header_box button").click(function(){
+            $(".menu").addClass("on");
+            });
+        $(".menu button").click(function(){
+            $(".menu").removeClass("on");
+            });
+        
+      });
+    </script>
+
+{% endif %}

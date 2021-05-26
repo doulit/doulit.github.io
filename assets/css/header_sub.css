@@ -1,0 +1,209 @@
+/*메뉴*/
+.menu{position:fixed; top:0; right:-100%; width:100%; height:100vh; z-index:200; background:#000000; opacity:0;}
+.menu .menu_inner{height:100%; width:100%; max-width:1600px; margin:0 auto; position:relative; overflow:scroll; -ms-overflow-style:none; scrollbar-width:none;}
+.menu .menu_inner::-webkit-scrollbar{display: none;}
+.menu.on{transition:all 0.3s; right:0; opacity:1;}
+.menu .menu_inner .btn_close{position:absolute; top:60px; right:0;}
+.menu .menu_inner .btn_close.btn_on{position:absolute; top:20px; right:0;}
+.menu .menu_inner .one_depth{width:100%; font-size:0; text-align:left;}
+.menu .menu_inner .one_depth > li{display:inline-block; margin-top:250px; vertical-align:top; font-size:80px; line-height:80px; font-weight:bold; margin-right:10%;}
+.menu .menu_inner .one_depth > li a{color:#ffffff;}
+.menu .menu_inner .one_depth > li a:hover{color:#0078ff; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; -ms-transition:all 0.2s ; -o-transition:all 0.2s; transition:all 0.2s;}
+.menu .menu_inner .one_depth > li:last-child{margin-right:0;}
+.menu .menu_inner .one_depth .about .two_depth{margin-top:100px;}
+.menu .menu_inner .one_depth .about .two_depth li{margin-bottom:50px; font-size:50px; line-height:50px;}
+.menu .menu_inner .one_depth .about .two_depth li:last-child{margin-bottom:0;}
+.menu .menu_inner .one_depth .about .two_depth li a{color:#888888;}
+.menu .menu_inner .one_depth .about .two_depth li a:hover{color:#ffffff; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; -ms-transition:all 0.2s ; -o-transition:all 0.2s; transition:all 0.2s;}
+.menu .menu_inner .btn_brochure{position:absolute; bottom:100px; right:0; color:#ffffff; padding-right:25px; padding-bottom:5px; font-size:20px; font-weight:bold; border-bottom:1px solid #ffffff; background:url('/assets/images/pc/icon_down.png')right 5px no-repeat;}
+.menu .menu_inner .btn_brochure:hover{color:#0078ff; border-bottom:1px solid #0078ff; background:url('/assets/images/pc/icon_down_on.png')right 5px no-repeat; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; -ms-transition:all 0.2s ; -o-transition:all 0.2s; transition:all 0.2s;}
+
+/*header*/
+header{width:100%;}
+header .header_box_sub{width:100%; height:100px; padding-top:60px; position:fixed; top:0; left:0; z-index:99; transition:all 0.4s; /* 숫자는 0.1초단위 */}
+header .header_box_sub .nav{max-width:1600px; width:100%; height:40px; margin:0 auto; *zoom:1; font-size:0; text-align:left;}
+header .header_box_sub .nav:after{content:""; clear:both; display:block;}
+header .header_box_sub .nav .logo{display:inline-block; vertical-align:top;}
+header .header_box_sub .nav button{display:block; height:40px; float:right;}
+/*페이지 타이틀*/
+header .header_box_sub .nav .page_title{z-index:-1; text-align:center; position:fixed; top:60px; left:50%; margin-left:-50%; width:100%; transition:all 0.4s;}
+header .header_box_sub .nav .page_title span{font-size:30px; font-weight:bold; line-height:30px; border-bottom:2px solid #444444;}
+
+
+/*자바스크립트로 추가될 클래스*/
+header .active {
+  position: fixed;
+  top:0;
+  background:rgba(0,0,0,0.8);
+  width:100%;
+  height:40px;
+  padding:20px 0;
+}
+
+/*자바스크립트로 추가될 클래스*/
+header .active_sub {
+  position: fixed;
+  top:0;
+  background:rgba(255,255,255,0.9);
+  width:100%;
+  height:40px;
+  padding:20px 0;
+}
+
+/*자바스크립트로 추가될 클래스*/
+.title_on {
+  margin-top:-40px;
+  height:40px;
+}
+
+/*----------- 반응형 ------------*/
+
+/* 1700px */
+@media all and (max-width:1700px) {
+	/*menu : 1700px*/
+	.menu .menu_inner{width:90%;}
+	.menu .menu_inner .one_depth > li{margin-top:250px; font-size:70px; line-height:70px; margin-right:10%;}
+	.menu .menu_inner .one_depth .about .two_depth{margin-top:40%;}
+	.menu .menu_inner .one_depth .about .two_depth li{margin-bottom:15%; font-size:40px; line-height:40px;}
+	.menu button.pc_none{display:block;}
+	.menu button.mb_none{display:none;}
+	.menu .btn_brochure{position:absolute; bottom:100px; right:5%; color:#ffffff; padding-right:25px; padding-bottom:5px; font-size:20px; font-weight:bold; border-bottom:1px solid #ffffff; background:url('/assets/images/pc/icon_down.png')right 5px no-repeat;}
+	.menu .btn_brochure:hover{color:#0078ff; border-bottom:1px solid #0078ff; background:url('/assets/images/pc/icon_down_on.png')right 5px no-repeat; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; -ms-transition:all 0.2s ; -o-transition:all 0.2s; transition:all 0.2s;}
+
+	/*header : 1700px*/
+	header .header_box_sub .nav{width:90%; margin:0 auto; padding:0 5%;}
+}
+
+
+/* 1533px - 1021px */
+@media (min-width:1201px) and (max-width:1533px) {
+	/*menu : 1533px*/
+	.menu .menu_inner .one_depth > li{font-size:55px; line-height:55px; margin-right:9%;}
+}
+
+
+/* 노트북, PC */
+@media all and (max-width:1200px) {
+	/*menu : 1200px*/
+	.menu .menu_inner{width:90%;}
+	.menu .menu_inner .one_depth > li{font-size:50px; line-height:50px; margin-right:9%;}
+	.menu .menu_inner .one_depth .about .two_depth li{font-size:35px; line-height:35px;}
+	.menu .menu_inner .btn_close{top:40px;}
+	/*header : 1200px*/
+	header .header_box_sub{padding-top:40px;}
+	header .header_box_sub .nav .page_title{top:40px;}
+	header .active {padding:20px 0;}
+	header .active_sub {padding:20px 0;}
+	.title_on{margin-top:-20px;}
+}
+
+/* 1067px - 1025px */
+@media (min-width:1025px) and (max-width:1067px) {
+	/*menu : 1067px*/
+	.menu .menu_inner .one_depth > li{font-size:48px; line-height:48px;}
+}
+
+/* 아이패드 Pro, 노트북 */
+@media all and (max-width:1024px) {
+	.mb_none{display:none;}
+	.pc_none{display:block;}
+	/*menu : 1024px*/
+	.menu .menu_inner{width:90%;}
+	.menu .menu_inner .one_depth > li{font-size:45px; line-height:45px; margin-right:9%;}
+	.menu .menu_inner .one_depth .about .two_depth li{font-size:27px; line-height:27px;}
+	.menu .menu_inner .btn_close{top:40px;}
+	/*header : 1024px*/
+	header .header_box_sub{padding-top:40px;}
+	header .header_box_sub .nav button img{height:100%;}
+	header .active {padding:20px 0;}
+	.title_on{margin-top:0;}
+}
+
+/* 962px - 841px */
+@media (min-width:841px) and (max-width:962px) {
+	/*menu : 962px*/
+	.menu .menu_inner .one_depth > li{font-size:40px; line-height:40px; margin-right:8%;}
+}
+
+/* 기타_840px */
+@media all and (max-width:840px) {
+	/*menu : 840px*/
+	.menu .menu_inner{width:90%;}
+	.menu .menu_inner .one_depth{margin-bottom:20%;}
+	.menu .menu_inner .one_depth > li:first-child{margin-top:20%;}
+	.menu .menu_inner .one_depth > li{margin-top:4%; display:block; font-size:45px; line-height:45px; margin-right:0;}
+	.menu .menu_inner .one_depth .about .two_depth{margin-top:5%; font-size:0; text-align:left;}
+	.menu .menu_inner .one_depth .about .two_depth li{margin-bottom:0; display:inline-block; padding-right:8%; vertical-align:top; font-size:27px; line-height:27px;}
+	.menu .btn_brochure{bottom:5%; right:5%;}
+}
+
+/* 기타_768px */
+@media all and (max-width:768px) {
+	header .header_box_sub .nav .page_title{display:none;}
+}
+
+
+/* 아이폰 6(s)+, 7+, 8+ 가로모드 */
+@media all and (max-width:736px) {
+	/*menu : 736px*/
+	.menu .menu_inner .btn_brochure{}
+}
+
+/* 기타_680px */
+@media all and (max-width:680px) {
+	/*menu : 680px*/
+	.menu .menu_inner .one_depth > li{font-size:35px; line-height:35px;}
+	.menu .menu_inner .one_depth .about .two_depth li{font-size:20px; line-height:20px;}
+	.menu .menu_inner .btn_brochure{font-size:16px; background: url('/assets/images/pc/icon_down.png')right top no-repeat;}
+}
+
+/* 아이폰 5, SE 가로모드 */
+@media all and (max-width:568px) {
+	/*menu : 568px*/
+	.menu .menu_inner .one_depth .about .two_depth{margin-top:8%;}
+	.menu .menu_inner .one_depth .about .two_depth li{font-size:24px; line-height:24px;}
+	.menu .menu_inner .one_depth > li{margin-top:5%;}
+}
+
+/* 아이폰 6(s)+, 7+, 8+ */
+@media all and (max-width:414px) {
+	/*header : 414px*/
+	header .header_box_sub{padding-top:20px;}
+	header .header_box_sub .nav .logo{height:35px;}
+	header .header_box_sub .nav .logo img{height:100%;}
+	/*menu : 414px*/
+	.menu .menu_inner .btn_close{top:20px;}
+	.menu .menu_inner .one_depth > li:first-child{margin-top:40%;}
+	.menu .menu_inner .one_depth > li{margin-top:7%;}
+	.menu .menu_inner .one_depth .about .two_depth{margin-top:10%;}
+	.menu .btn_brochure{left:5%;}
+}
+
+/* 아이폰 6(s), 7, 8, X */
+@media all and (max-width:375px) {	
+	/*menu : 375px*/
+	.menu .menu_inner .one_depth > li{margin-top:10%;}
+	.menu .menu_inner .one_depth .about .two_depth{margin-top:12%;}
+	.menu .menu_inner .btn_brochure{bottom:50px;}
+}
+
+/* 갤럭시 S3, S5, S6, S7, S8, S8+, 노트 2, 3, 4, 5, 8 */
+@media all and (max-width:360px) {
+	/*menu : 360px*/
+	.menu .menu_inner .one_depth > li{font-size:32px; line-height:32px;}
+	.menu .menu_inner .one_depth .about .two_depth li{font-size:20px; line-height:20px;}
+}
+
+/* 구형폰 */
+@media all and (max-width:320px) {
+	/*header : 320px*/
+	header .header_box_sub .nav .logo{height:30px; margin-top:5px;}
+	/*menu : 320px*/
+	.menu .btn_brochure{font-size:16px; background:url('/assets/images/pc/icon_down.png')right 1px no-repeat;}
+}
+
+/* 갤럭시 폴드 */
+@media all and (max-width:280px) {
+	/*menu : 280px*/
+	.menu .menu_inner .one_depth .about .two_depth li{display:block; margin-bottom:10%;}
+}

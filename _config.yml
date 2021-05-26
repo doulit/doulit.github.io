@@ -161,6 +161,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -218,6 +219,13 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # What we do
 doings:
@@ -233,24 +241,24 @@ doings:
 # Partners
 partners:
   [
-    { name: "부산대학교", image: "img_logo_bs" },
-    { name: "동의대학교", image: "img_logo_de" },
-    { name: "동의과학대학교", image: "img_logo_dit" },
-    { name: "광운대학교", image: "img_logo_kw" },
-    { name: "대우조선해양", image: "img_logo_dsme" },
-    { name: "동명대학교", image: "img_logo_tm" },
-    { name: "desc", image: "img_logo_dsec" },
-    { name: "동서대학교", image: "img_logo_dsu" },
-    { name: "계명대학교", image: "img_logo_km" },
-    { name: "중소조선연구원", image: "img_logo_rims" },
-    { name: "동아대학교", image: "img_logo_da" },
-    { name: "KRISO", image: "img_logo_kriso" },
-    { name: "계명문화대학교", image: "img_logo_kmm" },
-    { name: "부경대학교", image: "img_logo_bk" },
-    { name: "국립금오공과대학교", image: "img_logo_go" },
-    { name: "흥아포밍", image: "img_logo_ha" },
-    { name: "경남정보대학교", image: "img_logo_kit" },
-    { name: "고신대학교", image: "img_logo_ks" },
-    { name: "서울기독대학교", image: "img_logo_scu" },
-    { name: "TEIKURO", image: "img_logo_teikuro" },
+    { id: "01", name: "부산대학교", image: "img_logo_bs" },
+    { id: "02", name: "동의대학교", image: "img_logo_de" },
+    { id: "03", name: "동의과학대학교", image: "img_logo_dit" },
+    { id: "04", name: "광운대학교", image: "img_logo_kw" },
+    { id: "05", name: "대우조선해양", image: "img_logo_dsme" },
+    { id: "06", name: "동명대학교", image: "img_logo_tm" },
+    { id: "07", name: "desc", image: "img_logo_dsec" },
+    { id: "08", name: "동서대학교", image: "img_logo_dsu" },
+    { id: "09", name: "계명대학교", image: "img_logo_km" },
+    { id: "10", name: "중소조선연구원", image: "img_logo_rims" },
+    { id: "11", name: "동아대학교", image: "img_logo_da" },
+    { id: "12", name: "KRISO", image: "img_logo_kriso" },
+    { id: "13", name: "계명문화대학교", image: "img_logo_kmm" },
+    { id: "14", name: "부경대학교", image: "img_logo_bk" },
+    { id: "15", name: "국립금오공과대학교", image: "img_logo_go" },
+    { id: "16", name: "흥아포밍", image: "img_logo_ha" },
+    { id: "17", name: "경남정보대학교", image: "img_logo_kit" },
+    { id: "18", name: "고신대학교", image: "img_logo_ks" },
+    { id: "19", name: "서울기독대학교", image: "img_logo_scu" },
+    { id: "20", name: "TEIKURO", image: "img_logo_teikuro" },
   ]

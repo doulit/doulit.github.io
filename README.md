@@ -17,3 +17,10 @@ bundle exec jekyll serve --watch
 ```
 
 [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+
+## Working
+
+```
+/assets/images -> /assets/images
+./css -> /assets/css
+```
