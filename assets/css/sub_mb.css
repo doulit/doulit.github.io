@@ -36,13 +36,58 @@
 	/*----------- CEO 인사말 : 1700px ---------------*/
 	.wrap_greeting .sec01 .cont_box .title{top:140px;}
 
+	/*----------- 조직도 : 1700px ---------------*/
+	.wrap_members .sec01 .cont_box .title{top:85px;}
+	.wrap_members .sec01 .cont_box .cont_members{background:url('../imgaes/pc/members/no_bg.png') center center no-repeat;}
+	.wrap_members .sec01 .cont_box .cont_members .mem_line{display:block; width:48%; margin:0 auto; position:absolute; top:0; left:50%; margin-left:-24%; z-index:-1;}
+	.wrap_members .sec01 .cont_box .cont_members .mem_line img{display:block; width:100%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo{width:40%; height:auto; margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{padding-top:35%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{padding-top:2%; padding-bottom:8%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box{width:80%; padding-top:10%; padding-bottom:5%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{margin-left:10%; padding-left:10%; font-size:20px; line-height:20px;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy .team_name{width:50%; padding:4% 0; margin-left:-35%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy .team_box ul.left_li{margin-left:7%; width:40%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy .team_box ul.right_li{margin-right:7%; width:40%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy .team_box ul .li_title{width:100%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gs .team_box{padding-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gs .team_name{width:50%; padding:4% 0; margin-left:-15%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gs .team_box ul{width:60%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si{margin-top:18%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_name{width:50%; padding:4% 0; margin-left:-28%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box{width:95%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.left_li{margin-left:6%; width:42%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.right_li{margin-right:6%; width:42%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul .li_title{width:100%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl{margin-top:18%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_name{width:50%; padding:4% 0; margin-left:-22%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box{width:95%; padding-bottom:12%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.left_li{margin-left:6%; width:42%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.right_li{margin-right:6%; width:42%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul .li_title{width:100%;}
+
+
+
 	/*----------- 프로젝트 : 1700px ---------------*/
 	.wrap_project .sec01 .cont_box .title{position:absolute; left:0; top:70px;}
 
 	/*----------- 고객사 : 1700px ---------------*/
 	.wrap_partners .sec01 .cont_box .title{top:83px;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li{width:calc(70% / 4); margin-right:10%;}
+
+	/*----------- 문의하기 : 1700px ---------------*/
+	.wrap_contact .sec01 .cont_box .title{top:73px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box{width:40%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list{width:90%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box{width:60%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text{top:32%; left:14%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:22px; line-height:38px; padding-bottom:5%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:22px; line-height:38px;}
+	.wrap_contact .sec01 .map_box{margin-top:15%;}
+	.wrap_contact .sec01 .map_box .map{width:72%;}
+	.wrap_contact .sec01 .map_box .notice{padding-top:4%; padding-bottom:4%;}
 }
+
 
 /* 기타_1624px */
 @media all and (max-width:1624px) {
@@ -71,6 +116,14 @@
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:8%;}
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:6%; font-size:20px; line-height:20px;}
 
+	/*----------- 조직도 : 1620px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo{margin-bottom:9%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si{margin-top:18%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl{margin-top:18%;}
+
+	/*----------- 문의하기 : 1620px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li h1{font-size:38px; line-height:38px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{margin-top:18px; font-size:16px; line-height:16px;}
 	
 }
 
@@ -96,10 +149,25 @@
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:8%;}
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:6%; font-size:18px; line-height:18px;}
 
+	/*----------- 조직도 : 1500px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo{margin-bottom:7%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si{margin-top:15%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl{margin-top:15%;}
+
 	/*----------- 프로젝트 : 1500px ---------------*/
 	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:50px; line-height:50px;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:20px; line-height:30px;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{line-height:30px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .li_title{font-size:20px; margin-bottom:10%;}
+
+	/*----------- 문의하기 : 1500px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li h1{font-size:36px; line-height:36px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{margin-top:16px; font-size:14px; line-height:14px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text{top:32%; left:14%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:20px; line-height:36px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:20px; line-height:36px;}
+	.wrap_contact .sec01 .map_box .notice{font-size:26px; line-height:26px; padding-top:5%; padding-bottom:5%;}
+
 }
 
 /* 기타_1400px */
@@ -120,6 +188,15 @@
 	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{margin-bottom:5%;}
 	/*오른쪽 텍스트 : 1400px*/
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:5%;}
+	
+	/*----------- 조직도 : 1400px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo{margin-bottom:8.5%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:60px; line-height:60px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:26px; line-height:26px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:36px; line-height:36px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_name{font-size:24px; line-height:24px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{margin-bottom:7%; font-size:18px; line-height:18px;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gs .team_box{padding-top:12%; padding-bottom:9%;}
 }
 
 /* 기타_1360px */
@@ -137,6 +214,12 @@
 	/*오른쪽 텍스트 : 1360px*/
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title h1{font-size:45px; line-height:45px;}
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:7%;}
+
+	/*----------- 문의하기 : 1360px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list .number span{padding-right:15px; margin-right:15px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:18px; line-height:34px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:18px; line-height:34px;}
+	.wrap_contact .sec01 .map_box .notice{font-size:24px; line-height:24px;}
 }
 
 /* 기타_1300px */
@@ -175,6 +258,15 @@
 	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list{padding-top:6%;}
 	/*오른쪽 텍스트 : 1260px*/
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list{padding-top:6%;}
+
+	/*----------- 조직도 : 1260px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo{margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:50px; line-height:50px; padding-top:35%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:20px; line-height:20px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:30px; line-height:30px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_name{font-size:24px; line-height:24px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{margin-bottom:7%; font-size:16px; line-height:16px;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gs .team_box{padding-top:12%; padding-bottom:9%;}
 }
 
 /* 노트북, PC */
@@ -182,6 +274,7 @@
 
 	#wrap .sub_top{margin-top:120px;}
 	#wrap .sub_top .top_inner{width:80%; padding:8% 0;}
+
 	/*----------- 회사소개 : 1200px ---------------*/
 	.wrap_about .top_banner .top_inner{padding:8% 0; width:60%;}
 	.wrap_about .top_banner .top_inner .top_text{font-size:50px; line-height:50px;}
@@ -209,6 +302,22 @@
 	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .ht_title h1{font-size:40px; line-height:40px;}
 	/*오른쪽 텍스트 : 1200px*/
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title h1{font-size:40px; line-height:40px;}
+
+	/*----------- 조직도 : 1200px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo{margin-bottom:8.5%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .li_title{font-size:16px; line-height:40px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{margin-bottom:6%; font-size:14px; line-height:14px;}
+
+	/*----------- 문의하기 : 1200px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box{width:45%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box{width:55%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li h1{font-size:30px; line-height:30px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{margin-top:4%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li{margin-bottom:12%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:16px; line-height:30px; padding-bottom:3%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:16px; line-height:30px;}
+	.wrap_contact .sec01 .map_box .notice{font-size:20px; line-height:20px; padding-top:5%; padding-bottom:5%;}
+	.wrap_contact .sec01 .map_box .notice span img{width:50%; left:15px; top:-30px;}
 }
 
 
@@ -228,7 +337,7 @@
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .ht_title h1{font-size:35px; line-height:35px;}
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:4%; font-size:14px; line-height:14px;}
 	
-	/*----------- 프로젝트 : 1500px ---------------*/
+	/*----------- 프로젝트 : 1118px ---------------*/
 	.wrap_project .sec01 .cont_box .cont_project .cont_year{margin-bottom:8%;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{margin-bottom:40px;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:16px; line-height:26px;}
@@ -269,6 +378,18 @@
 	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{margin-bottom:4%; font-size:13px; line-height:13px;}
 	/*오른쪽 텍스트 : 1024px*/
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{margin-bottom:4%; font-size:13px; line-height:13px;}
+
+	/*----------- 조직도 : 1024px ---------------*/
+	.wrap_members .sec01 .cont_box .title{top:75px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo{margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:40px; line-height:40px; padding-top:35%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:18px; line-height:18px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:24px; line-height:24px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box{padding-top:8%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{margin-left:8%; padding-left:8%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_name{font-size:20px; line-height:20px;}
+	.wrap_members .sec01 .cont_box .cont_members .mem_line .pc_none{display:block;}
+	.wrap_members .sec01 .cont_box .cont_members .mem_line .mb_none{display:none;}
 	
 	/*----------- 프로젝트 : 1024px ---------------*/
 	.wrap_project .sec01 .cont_box .title{top:60px;}
@@ -278,6 +399,9 @@
 	/*----------- 고객사 : 1024px ---------------*/
 	.wrap_partners .sec01 .cont_box .title{top:75px;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li{margin-bottom:8%;}
+	
+	/*----------- 문의하기 : 1024px ---------------*/
+	.wrap_contact .sec01 .cont_box .title{top:64px;}
 }
 
 /* 기타_950px */
@@ -326,6 +450,15 @@
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start .year{padding-top:100px; padding-bottom:10px; font-size:50px; line-height:50px;}
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start .company{font-size:24px; line-height:34px;}
 
+	/*----------- 조직도 : 950px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo{margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:40px; line-height:40px; padding-top:35%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:18px; line-height:18px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:24px; line-height:24px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box{padding-top:9%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{margin-left:8%; padding-left:8%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_name{font-size:20px; line-height:20px; top:0;}
+
 	/*----------- 고객사 : 950px ---------------*/
 	.wrap_partners .sec01 .cont_box .title{top:77px;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li{width:calc(80% / 3); margin-right:10%;}
@@ -334,6 +467,44 @@
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(12n){margin-right:0;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(n + 29){margin-bottom:8%;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(n + 31){margin-bottom:0;}
+
+	/*----------- 문의하기 : 950px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .pc_none{display:block;}
+	.wrap_contact .sec01 .cont_box .cont_contact .mb_none{display:none;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box{width:100%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list{width:100%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li{margin-bottom:7%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li h1{font-size:36px; line-height:36px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{margin-top:2%; font-size:20px; line-height:20px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box{width:100%; margin-bottom:10%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:24px; line-height:40px; padding-bottom:5%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:24px; line-height:40px;}
+	.wrap_contact .sec01 .map_box .pc_none{display:block;}
+	.wrap_contact .sec01 .map_box .mb_none{display:none;}
+	.wrap_contact .sec01 .map_box{margin-top:15%; background:url('/assets/images/mobile/contact/map_bg_mb.png') left bottom repeat-x;}
+	.wrap_contact .sec01 .map_box .notice{font-size:18px; line-height:18px; padding-top:5%; padding-bottom:5%;}
+	.wrap_contact .sec01 .map_box .notice span img{width:40%; left:18px; top:-25px;}
+
+}
+
+/* 기타_920px */
+@media all and (max-width:920px) {
+	
+	/*----------- 조직도 : 920px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:30px; line-height:30px; padding-top:30%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:16px; line-height:16px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:20px; line-height:20px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_name{font-size:16px; line-height:16px;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box{padding-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul{display:block;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.left_li{width:88%; margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul .li_title{margin-bottom:5%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.right_li{width:88%; float:none; margin-left:6%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box{padding-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul{display:block;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.left_li{width:88%; margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul .li_title{margin-bottom:5%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.right_li{width:88%; float:none; margin-left:6%;}
 }
 
 /* 기타_905px */
@@ -373,6 +544,10 @@
 	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title{margin-bottom:15px; height:36px;}
 	.wrap_about .sec03 .cont_box .cont_product .product_list li .li_title span{font-size:28px; line-height:36px; margin-left:25px;}
 	.wrap_about .sec03 .cont_box .cont_product .product_list li p{font-size:16px; line-height:26px;}
+	
+	/*----------- 문의하기 : 840px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:20px; line-height:32px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:20px; line-height:32px;}
 
 }
 
@@ -398,15 +573,30 @@
 	/*----------- 회사소개 : 768px ---------------*/
 	.wrap_about .sec02 .cont_box .cont_value .result{font-size:24px; line-height:40px;}
 
-	/*----------- CEO 인사말 : 840px ---------------*/
+	/*----------- CEO 인사말 : 768px ---------------*/
 	.wrap_greeting .sec01 .bg_pen{top:75%;}
+	
+	/*----------- 조직도 : 768px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_name{font-size:14px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .li_title{font-size:14px; line-height:30px;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gs .team_box ul{width:80%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si{margin-top:13%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl{margin-top:13%;}
+
+	/*----------- 문의하기 : 768px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li h1{font-size:32px; line-height:32px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{font-size:18px; line-height:18px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:18px; line-height:30px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:18px; line-height:30px;}
+
+
 
 }
 
 /* 아이폰 6(s)+, 7+, 8+ 가로모드 */
 @media all and (max-width:736px) {
 
-	/*----------- 연혁 : 812px ---------------*/
+	/*----------- 연혁 : 736px ---------------*/
 	.wrap_history .top_banner_ht .top_inner .cont_text{font-size:40px; line-height:60px;}
 
 }
@@ -416,6 +606,10 @@
 
 	/*----------- 회사소개 : 712px ---------------*/
 	.wrap_about .sec01 .cont_box .title{top:56%;}
+
+	/*----------- 조직도 : 712px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .team_si{margin-top:12%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl{margin-top:12%;}
 }
 
 /* 기타_680px */
@@ -428,6 +622,12 @@
 
 	#wrap .sub_top .top_inner .cont_text{font-size:35px; line-height:55px;}
 
+	/*----------- 조직도 : 667px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo{margin-bottom:7%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box{padding-top:7%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{font-size:13px; line-height:13px;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si{margin-top:11%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl{margin-top:11%;}
 }
 
 /* 갤럭시 S3, S5, S6, S7, S8, S8+, 노트 2, 3, 4, 5, 8 가로모드 */
@@ -446,11 +646,41 @@
 	/*----------- CEO 인사말 : 640px ---------------*/
 	.wrap_greeting .sec01 .bg_pen{top:80%;}
 
+	/*----------- 조직도 : 640px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members{position:relative;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo{width:80%; margin-bottom:30%; position:relative; z-index:2;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:70px; line-height:70px; padding-top:25%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:40px; line-height:40px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:30px; line-height:30px;}
+	.wrap_members .sec01 .cont_box .cont_members .mem_line{width:80%; margin-left:-40%; z-index:1;}
+	.wrap_members .sec01 .cont_box .cont_members .mem_gray_line{background:url('/assets/images/mobile/members/mem_gray_line.png') center top repeat-y; position:absolute; top:13%; left:50%; margin-left:-50%; width:100%; height:85%; z-index:-1;}
+	.wrap_members .sec01 .cont_box .cont_members .mem_line .pc_none{display:none;}
+	.wrap_members .sec01 .cont_box .cont_members .mem_line .dp_none{display:block;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team{width:100%; background:#ffffff;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box{width:100%; margin-top:30px; padding-top:10%; padding-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_name{width:40%; margin-left:-20%; font-size:20px; line-height:20px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .li_title{font-size:20px; line-height:50px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{font-size:18px; line-height:28px; background: url('/assets/images/pc/members/dot_blue.png') left 15px no-repeat;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gs .team_box ul{width:60%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy{margin-top:20%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy .team_box ul.left_li{width:42%; margin-left:6%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy .team_box ul.right_li{width:42%; margin-right:6%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gs{margin-top:11%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.left_li{width:42%; display:inline-block; margin-bottom:0;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.right_li{width:42%; display:inline-block; float:right; margin-left:0;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.left_li{width:42%; display:inline-block; margin-bottom:0;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.right_li{width:42%; display:inline-block; float:right; margin-left:0;}
+
+
 	/*----------- 프로젝트 : 640px ---------------*/
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li{margin-bottom:3%;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{margin-bottom:5%;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{font-size:20px; line-height:30px;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:20px; line-height:30px;}
+
+	/*----------- 문의하기 : 640px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:16px; line-height:28px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:16px; line-height:28px;}
 	
 }
 
@@ -510,12 +740,24 @@
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border{z-index:-1; width:18%; height:147px; border-left:6px solid #eeeeee; border-bottom:6px solid #eeeeee; position:absolute; top:0; left:0;}
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border .dot{position:absolute; left:-13px; bottom:-13px;}
 
+	/*----------- 조직도 : 568px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .mem_line{margin-top:15%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{padding-top:27%;}
+
 	/*----------- 고객사 : 568px ---------------*/
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box{width:90%; margin:0 auto;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li{width:calc(85% / 2); margin-right:15%;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(2n){margin-right:0;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(3n){margin-right:15%;}
 	.wrap_partners .sec01 .cont_box .cont_partners .clinet_box li:nth-child(6n){margin-right:0;}
+
+	/*----------- 문의하기 : 568px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:18px; line-height:30px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:18px; line-height:30px;}
+	.wrap_contact .sec01 .map_box .map{width:90%; box-shadow: 10px 10px 0 0 rgb(0 63 149 / 25%);}
+	.wrap_contact .sec01 .map_box .notice{font-size:16px; line-height:16px; width:90%; padding-top:7%; padding-bottom:10%;}
+	.wrap_contact .sec01 .map_box .notice span{padding:0 20px;}
+	.wrap_contact .sec01 .map_box .notice span img{width:50%; left:10px; top:-20px;}
 	
 }
 
@@ -539,10 +781,25 @@
 	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li{font-size:16px; line-height:26px;}
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li{font-size:16px; line-height:26px;}
 
+	/*----------- 조직도 : 490px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:50px; line-height:50px; padding-top:30%;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:20px; line-height:20px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:30px; line-height:30px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_name{font-size:18px; width:60%; margin-left:-30%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box{margin-top:25px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{font-size:16px; line-height:26px; margin-bottom:2%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .li_title{font-size:18px; line-height:45px;}
+
 	/*----------- 프로젝트 : 490px ---------------*/
 	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:36px; line-height:36px;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{font-size:18px; line-height:28px; margin-right:3%;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:18px; line-height:28px;}
+
+	/*----------- 문의하기 : 490px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:16px; line-height:28px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:16px; line-height:28px;}
+	.wrap_contact .sec01 .map_box{background: url('/assets/images/mobile/contact/map_bg_mb02.png') left bottom repeat-x;}
+	.wrap_contact .sec01 .map_box .notice{font-size:14px; line-height:14px; padding-top:10%;}
 
 }
 
@@ -571,15 +828,32 @@
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start .year{padding-top:75px; font-size:40px; line-height:40px;}
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start .company{font-size:20px; line-height:30px;}
 
+	/*----------- 문의하기 : 414px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li{margin-bottom:10%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li h1{font-size:26px; line-height:26px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{font-size:16px; line-height:16px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:14px; line-height:26px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:14px; line-height:26px;}
+	.wrap_contact .sec01 .map_box .notice{font-size:13px; line-height:23px; padding-top:10%;}
+	.wrap_contact .sec01 .map_box .notice span{padding:0 15px;}
+	.wrap_contact .sec01 .map_box .notice span img{width:65%; left:5px; top:-20px;}
 }
 
 /* 아이폰 6(s), 7, 8, X */
 @media all and (max-width:375px) {
 
+	/*----------- 조직도 : 375px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:40px; line-height:40px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:16px; line-height:16px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:26px; line-height:26px;}
+
 	/*----------- 프로젝트 : 375px ---------------*/
 	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:34px; line-height:34px;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{font-size:16px; line-height:26px;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:16px; line-height:26px;}
+	
+	/*----------- 문의하기 : 375px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text{top:27%;}
 
 }
 
@@ -608,6 +882,19 @@
 	.wrap_history .sec01 .cont_box .cont_history .right_box .img_box{width:calc(100% - 50px); padding-left:50px;}
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border .dot{left:-11px;}
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start_border .dot img{width:70%;}
+
+	/*----------- 조직도 : 360px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box{margin-top:20px;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .part{font-size:14px; line-height:24px; margin-bottom:2%;}
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .li_title{font-size:16px; line-height:40px;}
+
+	/*----------- 문의하기 : 360px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text{top:30%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:13px; line-height:20px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:13px; line-height:20px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li h1{font-size:20px; line-height:20px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{font-size:14px; line-height:14px;}
+
 }
 
 /* 구형폰 */
@@ -631,10 +918,31 @@
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start .year{padding-top:62px; padding-bottom:10px; font-size:30px; line-height:30px;}
 	.wrap_history .sec01 .cont_box .cont_history .start_box .start .company{font-size:16px; line-height:24px;}
 
+	/*----------- 조직도 : 320px ---------------*/
+	.wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:30px; line-height:30px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{font-size:14px; line-height:14px;}
+	.wrap_members .sec01 .cont_box .cont_members .ceo .name{font-size:20px; line-height:20px;}
+	
+	.wrap_members .sec01 .cont_box .cont_members .cont_team .team_box ul .li_title{margin-bottom:5%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy .team_box ul.left_li{width:88%; margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_gy .team_box ul.right_li{width:88%; float:none; margin-left:6%}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.left_li{width:88%; margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.right_li{width:88%; float:none; padding-left:6%}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.left_li{width:88%; margin-bottom:10%;}
+	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.right_li{width:88%; float:none; padding-left:6%}
+
 	/*----------- 프로젝트 : 320px ---------------*/
 	.wrap_project .sec01 .cont_box .cont_project .cont_year h1{font-size:32px; line-height:32px;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{font-size:14px; line-height:20px; margin-right:4%;}
 	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .pj_text{font-size:14px; line-height:20px;}
+
+	/*----------- 문의하기 : 320px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text{top:26%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{width:90%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p br{display:none;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li h1{font-size:20px; line-height:20px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{font-size:13px; line-height:13px;}
+	.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list .number span{margin-right:10px; padding-right:10px;}
 }
 
 /* 갤럭시 폴드 */
@@ -645,4 +953,9 @@
 	/*----------- 연혁 : 280px ---------------*/
 	.wrap_history .sec01 .cont_box .cont_history .left_box .text_box .pj_list li .dot{left:-4px;}
 	.wrap_history .sec01 .cont_box .cont_history .right_box .text_box .pj_list li .dot{left:-4px;}
+
+	/*----------- 문의하기 : 320px ---------------*/
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text{top:22%;}
+	.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:12px; line-height:18px; width:80%;}
+
 }

@@ -158,8 +158,13 @@ body{position:relative;}
 .wrap_members .sec01{position:relative;}
 .wrap_members .sec01 .cont_box .title{position:absolute; left:0; top:125px;}
 /*조직도*/
-.wrap_members .sec01 .cont_box .cont_members{font-size:0; text-align:left; width:100%; background:url('/assets/images/pc/members/mem_line.png') center 237px no-repeat;}
-.wrap_members .sec01 .cont_box .cont_members .ceo{color:#ffffff; margin:0 auto; width:500px; height:490px; text-align:center; background:url('/assets/images/pc/members/ceo_bg.png') center top no-repeat; background-size:cover;}
+.wrap_members .sec01 .cont_box .cont_members .mem_line{display:none;}
+.wrap_members .sec01 .cont_box .cont_members .mem_line .pc_none{display:none;}
+.wrap_members .sec01 .cont_box .cont_members .mem_line .dp_none{display:none;}
+.wrap_members .sec01 .cont_box .cont_members .mem_line .mb_none{display:block;}
+.wrap_members .sec01 .cont_box .cont_members{font-size:0; text-align:left; width:100%; background:url('/assets/images/pc/members/mem_line.png') center top no-repeat;}
+.wrap_members .sec01 .cont_box .cont_members .ceo{position:relative; color:#ffffff; margin:0 auto; width:500px; height:485px; text-align:center;}
+.wrap_members .sec01 .cont_box .cont_members .ceo .ceo_bg{width:100%; position:absolute; top:0; left:0; z-index:-1;}
 .wrap_members .sec01 .cont_box .cont_members .ceo h1{font-size:70px; line-height:70px; text-align:center; padding-top:175px; font-family:'Roboto', 'Noto Sans KR', Dotum, '돋움', Gulim, '굴림',sans-serif;}
 .wrap_members .sec01 .cont_box .cont_members .ceo .mem_who{display:block; font-size:30px; line-height:30px; color:#96cfff; padding-top:10px; padding-bottom:40px;}
 .wrap_members .sec01 .cont_box .cont_members .ceo .name{display:block; font-size:40px; line-height:40px; font-weight:bold;}
@@ -186,9 +191,9 @@ body{position:relative;}
 .wrap_members .sec01 .cont_box .cont_members .team_si{position:relative; margin-top:208px;}
 .wrap_members .sec01 .cont_box .cont_members .team_si .team_name{background:#0083ee; margin-left:-120px;}
 .wrap_members .sec01 .cont_box .cont_members .team_si .team_box{width:570px;}
-.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul{display:inline-block; vertical-align:top;}
+.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul{display:inline-block; vertical-align:top; *zoom:1;}
+.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul:after{content:""; clear:both; display:block;}
 .wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.left_li{margin-left:30px; *zoom:1;}
-.wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.left_li:after{content:""; clear:both; display:block;}
 .wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul.right_li{float:right; margin-right:30px;}
 .wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul .li_title{margin-bottom:25px; width:240px; background:#e5f2fd; border-radius:7px; font-size:24px; line-height:50px; text-align:center; color:#0083ee; font-weight:bold;}
 .wrap_members .sec01 .cont_box .cont_members .team_si .team_box ul .part{margin-left:20px;}
@@ -198,9 +203,9 @@ body{position:relative;}
 .wrap_members .sec01 .cont_box .cont_members .team_sl .team_box{width:570px; float:right;}
 .wrap_members .sec01 .cont_box .cont_members .team_sl .team_name{background:#0083ee; margin-left:-120px;}
 .wrap_members .sec01 .cont_box .cont_members .team_sl .team_box{width:570px; padding-bottom:74px;}
-.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul{display:inline-block; vertical-align:top;}
-.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.left_li{margin-left:30px; *zoom:1;}
-.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.left_li:after{content:""; clear:both; display:block;}
+.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul{display:inline-block; vertical-align:top; *zoom:1;}
+.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul:after{content:""; clear:both; display:block;}
+.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.left_li{margin-left:30px;}
 .wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul.right_li{float:right; margin-right:30px;}
 .wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul .li_title{margin-bottom:25px; width:240px; background:#e5f2fd; border-radius:7px; font-size:24px; line-height:50px; text-align:center; color:#0083ee; font-weight:bold;}
 .wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul .part{margin-left:20px;}
@@ -251,7 +256,7 @@ body{position:relative;}
 .wrap_contact .top_banner_ct .top_inner .cont_text{display:block; font-size:60px; line-height:90px; text-align:center; color:#ffffff; font-weight:bold;}
 
 /*sec01_Contact*/
-.wrap_contact .sec01{position:relative;}
+.wrap_contact .sec01{position:relative; margin-bottom:0 !important;}
 .wrap_contact .sec01 .cont_box .title{position:absolute; left:0; top:105px;}
 .wrap_contact .sec01 .cont_box .cont_contact{width:100%; font-size:0; text-align:left;}
 .wrap_contact .sec01 .cont_box .cont_contact div{display:inline-block; vertical-align:top;}
@@ -262,16 +267,24 @@ body{position:relative;}
 .wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li span{display:inline-block; vertical-align:top; margin-top:20px; font-size:18px; line-height:18px;}
 .wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list li.email{margin-bottom:0;}
 .wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list .number span{padding-right:25px; margin-right:25px; border-right:1px solid #444444;}
-.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list .number span:last-child{border-right:0;}
+.wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list .number span:last-child{border-right:0; padding-right:0; margin-right:0;}
 .wrap_contact .sec01 .cont_box .cont_contact .info_box .info_list .number span strong{padding-right:10px;}
 /*문의처*/
-.wrap_contact .sec01 .cont_box .cont_contact .img_box{width:750px; padding-bottom:155px; background:url('/assets/images/pc/contact/ct_img.png') left top no-repeat; background-size:contain;}
-.wrap_contact .sec01 .cont_box .cont_contact .img_box p{font-size:24px; line-height:40px; padding:170px 0 25px 110px; letter-spacing:-1px; color:#ffffff;}
-.wrap_contact .sec01 .cont_box .cont_contact .img_box span{font-size:24px; line-height:40px; color:#ffffff; background:#0078ff; padding:0 5px; margin-left:110px;}
+.wrap_contact .sec01 .cont_box .cont_contact .pc_none{display:none;}
+.wrap_contact .sec01 .cont_box .cont_contact .mb_none{display:inline-block;}
+.wrap_contact .sec01 .cont_box .cont_contact .img_box{width:750px; position:relative;}
+.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text{position:absolute; top:170px; left:110px;}
+.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text p{font-size:24px; line-height:40px; padding-bottom:25px; letter-spacing:-1px; color:#ffffff;}
+.wrap_contact .sec01 .cont_box .cont_contact .img_box .contact_text span{font-size:24px; line-height:40px; color:#ffffff; background:#0078ff; padding:0 5px;}
+.wrap_contact .sec01 .cont_box .cont_contact .img_box img{width:100%;}
 /*지도*/
 .wrap_contact .sec01 .map_box{width:100%; margin-top:180px; background:url('/assets/images/pc/contact/map_bg.png') left bottom repeat-x;}
+.wrap_contact .sec01 .map_box .pc_none{display:none;}
+.wrap_contact .sec01 .map_box .mb_none{display:block;}
 .wrap_contact .sec01 .map_box .map{margin:0 auto; max-width:1200px; width:100%; position:relative; box-shadow:25px 25px 0 0 rgba(0,63,149,0.25);}
-.wrap_contact .sec01 .map_box .map .icon_location{position:absolute; top:375px; left:545px;}
+.wrap_contact .sec01 .map_box .map .icon_location{display:block; width:10%; height:20%; position:absolute; top:47%; left:45%;}
+.wrap_contact .sec01 .map_box .map .icon_location a{display:block; width:100%; height:100%;}
+.wrap_contact .sec01 .map_box .map .map_img{width:100%;}
 .wrap_contact .sec01 .map_box .notice{margin:0 auto; max-width:1200px; width:100%; text-align:center; font-size:30px; line-height:30px; color:#ffffff; padding-top:70px; padding-bottom:70px;}
 .wrap_contact .sec01 .map_box .notice span{display:inline-block; padding:0 30px; position:relative;}
 .wrap_contact .sec01 .map_box .notice span img{position:absolute; top:-40px; left:10px;}
