@@ -1,6 +1,6 @@
 .dp_none{display:none;}
-.pc_none{display:none !important;}
-.mb_none{display:block !important;}
+.pc_none{display:none;}
+.mb_none{display:block;}
 body{position:relative;}
 #wrap{position:relative;}
 
@@ -167,6 +167,12 @@ body{position:relative;}
 	#wrap .sec05 .cont_box .cont_contact .btn_contact a{font-size:18px; line-height:18px; padding:20px 55px;}
 }
 
+/* 기타_870px */
+@media all and (max-width:870px) {
+	/*sec01 : 870px*/
+	#wrap .sec01 .cont_slogan .slogan{font-size:55px; line-height:75px;}
+}
+
 /* 기타_840px */
 @media all and (max-width:840px) {
 	/*sec01 : 840px*/
@@ -253,7 +259,7 @@ body{position:relative;}
 	/*sec01 : 568px*/
 	#wrap .sec01{height:600px;}
 	#wrap .sec01 .cont_slogan{background:url("/assets/images/mobile/bg_text_m.png") center center no-repeat; background-size:contain;}
-	#wrap .sec01 .cont_slogan .slogan{font-size:60px; line-height:80px; margin-top:-120px;}
+	#wrap .sec01 .cont_slogan .slogan{width:80%; margin-left:-40%; font-size:55px; line-height:75px; margin-top:-100px;}
 	/*sec02 : 568px*/
 	#wrap .sec02 .cont_box .cont_title .title{transform:rotate(0deg); top:20%;}
 	#wrap .sec02 .cont_box .cont_title .sub_title{padding:25% 0; font-size:45px;}
@@ -296,10 +302,11 @@ body{position:relative;}
 	#wrap .sec05 .cont_box .cont_contact .btn_contact a{font-size:18px; line-height:18px; padding:25px 70px;}
 }
 
+
 /* 아이폰 6(s)+, 7+, 8+ */
 @media all and (max-width:414px) {
 	/*sec01 : 414px*/
-	#wrap .sec01 .cont_slogan .slogan{font-size:55px; line-height:70px; margin-top:-100px; width:90%; margin-left:-45%;}
+	#wrap .sec01 .cont_slogan .slogan{font-size:50px; line-height:65px;}
 	/*sec02 : 414px*/
 	#wrap .sec02 .cont_box .cont_title .title{top:25%;}
 	#wrap .sec02 .cont_box .cont_title .sub_title{padding:33% 0; font-size:40px;}
@@ -322,7 +329,7 @@ body{position:relative;}
 @media all and (max-width:375px) {	
 	/*sec01 : 375px*/
 	#wrap .sec01 .cont_slogan{margin-top:-120px;}
-	#wrap .sec01 .cont_slogan .slogan{font-size:50px; margin-top:-105px;}
+	#wrap .sec01 .cont_slogan .slogan{font-size:45px; line-height:60px; margin-top:-90px;}
 	/*sec02 : 375px*/
 	#wrap .sec02 .cont_box .cont_who p{font-size:15px; line-height:25px;}
 	#wrap .sec02 .cont_box .cont_img{top:35%;}
@@ -334,13 +341,15 @@ body{position:relative;}
 
 /* 갤럭시 S3, S5, S6, S7, S8, S8+, 노트 2, 3, 4, 5, 8 */
 @media all and (max-width:360px) {
+	/*sec01 : 360px*/
+	#wrap .sec01 .cont_slogan .slogan{font-size:44px; line-height:64px;}
 }
 
 /* 구형폰 */
 @media all and (max-width:320px) {
 	/*sec01 : 320px*/
 	#wrap .sec01{height:500px;}
-	#wrap .sec01 .cont_slogan .slogan{font-size:40px; line-height:60px; margin-top:-90px;}
+	#wrap .sec01 .cont_slogan .slogan{font-size:38px; line-height:58px; margin-top:-90px;}
 	#wrap .sec01 .cont_slogan{height:230px; margin-top:-90px;}
 	/*sec02 : 320px*/
 	#wrap .sec02 .cont_box .cont_title .title{top:20%;}
@@ -356,8 +365,11 @@ body{position:relative;}
 /* 갤럭시 폴드 */
 @media all and (max-width:280px) {
 	/*sec01 : 280px*/
-	#wrap .sec01 .cont_slogan .slogan {font-size:36px; line-height:50px;margin-top:-75px;}
+	#wrap .sec01 .cont_slogan .slogan {font-size:32px; line-height:42px; margin-top:-55px;}
 	#wrap .sec01{height:460px;}
+	/*sec02 : 280px*/
+	#wrap .sec02 .cont_box .cont_title .sub_title{font-size:30px;}
+	#wrap .sec02 .cont_box .cont_img{top:30%;}
 	/*sec03 : 280px*/
 	#wrap .sec03 .cont_box .cont_what .list_do li .card div .card_nm{font-size:18px; line-height:18px;}
 	/*sec05 : 280px*/

@@ -75,8 +75,8 @@ footer .cont_footer .copyright .git_link a{color:#888888; display:inline-block; 
 	.mb_none{display:none;}
 	.pc_none{display:block;}
 	/*footer : 1024px*/
-	footer .cont_footer .list_box .list_cont li .mb_none{display:block;}
-	footer .cont_footer .list_box .list_cont li .pc_none{display:none;}
+	footer .cont_footer .list_box .list_cont li .mb_none{display:none;}
+	footer .cont_footer .list_box .list_cont li .pc_none{display:inline-block !important;}
 	footer .cont_footer .list_box .list_cont li img{width:31px; margin:0 auto;}
 }
 

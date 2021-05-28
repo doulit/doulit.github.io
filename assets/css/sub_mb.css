@@ -67,9 +67,9 @@
 	.wrap_members .sec01 .cont_box .cont_members .team_sl .team_box ul .li_title{width:100%;}
 
 
-
 	/*----------- 프로젝트 : 1700px ---------------*/
 	.wrap_project .sec01 .cont_box .title{position:absolute; left:0; top:70px;}
+	.wrap_project .sec01 .cont_box .cont_project .cont_year .pj_list li .num{padding-left:4%; margin-right:2%;}
 
 	/*----------- 고객사 : 1700px ---------------*/
 	.wrap_partners .sec01 .cont_box .title{top:83px;}
