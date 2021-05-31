@@ -102,42 +102,49 @@
 		</script>
 {% else %}
     <script>
-      $(document).ready(function() {
-        //header 고정
-        $(window).scroll(function() {
-            var header_top = $(".header_box").offset().top;
-            if (header_top > 350) { //숫자는 최상단에서부터 원하는 위치값 넣기
-              $(".header_box").addClass("active");
-              $(".btn_close").addClass("btn_on");
-            }else {
-              $(".header_box").removeClass("active");
-              $(".btn_close").removeClass("btn_on");
-            }
-        });
-        
-        //fade-up 효과
-        AOS.init({
-        easing: 'ease-in-out-sine',
-        duration: 1000
-        });
+			$(document).ready(function() {
+				//header 고정
+				$(window).scroll(function() {
+				   var header_top = $(".header_box").offset().top;
+				   if (header_top > 350) { //숫자는 최상단에서부터 원하는 위치값 넣기
+					  $(".header_box").addClass("active");
+					  $(".btn_close").addClass("btn_on");
+					  $(".bk_logo").addClass("dp_b");
+					  $(".wt_logo").addClass("dp_n");
+					  $(".bk_toggle").addClass("dp_b");
+					  $(".wt_toggle").addClass("dp_n");
+				   }else {
+					  $(".header_box").removeClass("active");
+					  $(".btn_close").removeClass("btn_on");
+					  $(".bk_logo").removeClass("dp_b");
+					  $(".wt_logo").removeClass("dp_n");
+					  $(".bk_toggle").removeClass("dp_b");
+					  $(".wt_toggle").removeClass("dp_n");
+				   }
+				});
+				
+				//fade-up 효과
+				AOS.init({
+				easing: 'ease-in-out-sine',
+				duration: 1000
+				});
 
-        //mouseover 효과
-        $(".item").mouseenter(function(){
-            $(this).addClass("on");
-            });
-        $(".item").mouseleave(function(){
-            $(this).removeClass("on");
-            });
+				//mouseover 효과
+				$(".item").mouseenter(function(){
+				   $(this).addClass("on");
+				   });
+				$(".item").mouseleave(function(){
+				   $(this).removeClass("on");
+				   });
 
-        //menu 효과
-        $(".header_box button").click(function(){
-            $(".menu").addClass("on");
-            });
-        $(".menu button").click(function(){
-            $(".menu").removeClass("on");
-            });
-        
-      });
-    </script>
+				//menu 효과
+				$(".header_box button").click(function(){
+				   $(".menu").addClass("on");
+				   });
+				$(".menu button").click(function(){
+				   $(".menu").removeClass("on");
+				   });
+			});
+		</script>
 
 {% endif %}

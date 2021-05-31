@@ -24,6 +24,10 @@ header .header_box{width:100%; height:100px; padding-top:60px; position:fixed; t
 header .header_box .nav{max-width:1600px; width:100%; height:40px; margin:0 auto; *zoom:1; font-size:0; text-align:left;}
 header .header_box .nav:after{content:""; clear:both; display:block;}
 header .header_box .nav .logo{display:inline-block; vertical-align:top;}
+header .header_box .nav .logo .bk_logo{display:none;}
+header .header_box .nav .logo .wt_logo{display:inline-block;}
+header .header_box .nav .btn_open .bk_toggle{display:none;}
+header .header_box .nav .btn_open .wt_toggle{display:inline-block;}
 header .header_box .nav button{display:block; height:40px; float:right;}
 /*페이지 타이틀*/
 header .header_box .nav .page_title{z-index:-1; text-align:center; position:fixed; top:60px; left:50%; margin-left:-50%; width:100%; transition:all 0.4s;}
@@ -34,11 +38,16 @@ header .header_box .nav .page_title span{font-size:30px; font-weight:bold; line-
 header .active {
   position: fixed;
   top:0;
-  background:rgba(0,0,0,0.8);
+  background:rgba(255,255,255,0.9);
   width:100%;
   height:40px;
   padding:20px 0;
 }
+
+header .header_box .nav .logo a.dp_n{display:none;}
+header .header_box .nav .logo a.dp_b{display:inline-block;}
+header .header_box .nav .btn_open img.dp_n{display:none;}
+header .header_box .nav .btn_open img.dp_b{display:inline-block;}
 
 /*자바스크립트로 추가될 클래스*/
 header .active_sub {
