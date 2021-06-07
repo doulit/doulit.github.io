@@ -3,9 +3,13 @@
 [![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/mmistakes)
 
-# doulit.github.io
+# README
 
 도울정보기술 홈페이지
+
+- Copyright &copy; 2021, [https://doulit.co.kr/](https://doulit.co.kr/)
+- Author: [Gidong Seong](https://dndacademy.github.io/)
+- Licensed under the terms of the MIT License.
 
 ## Settings
 
@@ -17,10 +21,3 @@ bundle exec jekyll serve --watch
 ```
 
 [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
-
-## Working
-
-```
-/assets/images -> /assets/images
-./css -> /assets/css
-```
