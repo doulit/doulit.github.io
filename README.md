@@ -11,7 +11,7 @@
 - Author: [Gidong Seong](https://dndacademy.github.io/)
 - Licensed under the terms of the MIT License.
 
-## 설정
+## Settings
 
 ```
 ** ruby 설치 **
