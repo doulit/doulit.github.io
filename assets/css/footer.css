@@ -2,7 +2,7 @@
 footer{overflow:hidden; width:100%; background:#2d3236;}
 footer .cont_footer{max-width:1600px; width:100%; margin:0 auto; padding:70px 0;}
 footer .cont_footer .list_box{width:100%;}
-footer .cont_footer .list_box .list_cont{max-width:930px; width:100%; margin:0 auto; font-size:0; text-align:left; padding-bottom:45px;}
+footer .cont_footer .list_box .list_cont{width:100%; margin:0 auto; font-size:0; text-align:center; padding-bottom:45px;}
 footer .cont_footer .list_box .list_cont li{margin-right:101px; text-align:center; display:inline-block; vertical-align:top;}
 footer .cont_footer .list_box .list_cont li img.mb_none{margin:0 auto;}
 footer .cont_footer .list_box .list_cont li:last-child{margin-right:0;}
